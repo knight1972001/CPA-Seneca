@@ -1,0 +1,21 @@
+
+=== Start: [2020/07/14 01:56:29] === 
+Analysis started...
+Result file: C:\CPA_Code\oop244\final_project\ms1\Project2\My Inspector Results - Project2\r012mi3\r012mi3.inspxe 
+Analysis started for c:\cpa_code\oop244\final_project\ms1\project2\debug\project2.exe (pid = 2676) 
+Loaded module: c:\cpa_code\oop244\final_project\ms1\project2\debug\project2.exe, address range [0x3e0000-0x40afff] 
+Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x75ca0000-0x75d8ffff] 
+Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x77630000-0x77842fff] 
+Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x779d0000-0x77b71fff] 
+Loaded module: c:\program files\norton security\nortondata\22.20.2.57\definitions\bashdefs\20200707.001\umengx86.dll, address range [0x614c0000-0x61527fff] 
+Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0x7c070000-0x7c125fff] 
+Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0x7b5d0000-0x7b744fff] 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xcaa0000-0xcabcfff] 
+Unloaded module: C:\Windows\SysWOW64\vcruntime140d.dll 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xcaa0000-0xcabcfff] 
+Warning: Detected fatal exception in the application. See result for details. 
+Application exit code: -1073741819 
+Error: Analysis was terminated by Ctrl + C. 
+Result file: C:\CPA_Code\oop244\final_project\ms1\Project2\My Inspector Results - Project2\r012mi3\r012mi3.inspxe 
+Analysis completed
+=== End: [2020/07/14 01:56:43] === 

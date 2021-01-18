@@ -1,0 +1,10 @@
+102288	_mainCRTStartup:
+102288	push ebp
+102289	mov ebp, esp
+102291	call 0x18bf0
+102296	pop ebp
+102297	ret 
+102304	push ebp
+102305	mov ebp, esp
+102307	sub esp, 0x18
+102310	mov eax, dword ptr [ebp+0x8]

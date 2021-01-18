@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\code\oop244\w1\home\test\Source.cpp(11,20): error C2248: 'Student::no': cannot access private member declared in class 'Student'
+C:\code\oop244\w1\home\test\Source.cpp(5): message : see declaration of 'Student::no'
+C:\code\oop244\w1\home\test\Source.cpp(3): message : see declaration of 'Student'

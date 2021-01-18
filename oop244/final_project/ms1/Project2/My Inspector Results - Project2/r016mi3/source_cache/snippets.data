@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\CPA_Code\oop244\final_project\ms1\Project2\Menu.cpp" md5="939f899e8dd9916daecc4c38ba07f7a4">
+    <snippet line="71">
+      <line line="68">		if (title != nullptr &amp;&amp; title[0] != '\0') {</line>
+      <line line="69"/>
+      <line line="70">			this-&gt;title = new char[strlen(title) + 1];</line>
+      <line line="71">			strcpy(this-&gt;title, title);</line>
+      <line line="72">		}</line>
+    </snippet>
+  </file>
+  <file name="C:\CPA_Code\oop244\final_project\ms1\Project2\ms1_MenuTester.cpp" md5="31e70309e908742259427f1fa47af7ad">
+    <snippet line="26">
+      <line line="23">    TT("M1T1: constructors");</line>
+      <line line="24">    Menu mainMenu("** Main Menu **");</line>
+      <line line="25">    Menu subMenu1("** Sub Menu One **", 1);</line>
+      <line line="26">    Menu subMenu2("** Sub Menu **", 2);</line>
+      <line line="27">    Menu tempMenu("** Temp **");</line>
+    </snippet>
+  </file>
+</snippets>

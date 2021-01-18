@@ -1,0 +1,33 @@
+
+=== Start: [2020/07/28 03:53:33] === 
+Analysis started...
+Result file: C:\CPA_Code\oop244\final_project\ms2\Project1\My Inspector Results - Project1\r000mi3\r000mi3.inspxe 
+Analysis started for c:\cpa_code\oop244\final_project\ms2\project1\debug\project1.exe (pid = 17384) 
+Loaded module: c:\cpa_code\oop244\final_project\ms2\project1\debug\project1.exe, address range [0xf60000-0xf8ffff] 
+Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x76b60000-0x76c4ffff] 
+Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x779e0000-0x77bf2fff] 
+Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x77c10000-0x77db1fff] 
+Loaded module: c:\program files\norton security\nortondata\22.20.2.57\definitions\bashdefs\20200721.001\umengx86.dll, address range [0x61ee0000-0x61f47fff] 
+Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0x79650000-0x79705fff] 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0x794b0000-0x794ccfff] 
+Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0x794d0000-0x79644fff] 
+Loaded module: c:\windows\syswow64\kernel.appcore.dll, address range [0x750d0000-0x750defff] 
+Loaded module: c:\windows\syswow64\msvcrt.dll, address range [0x76c50000-0x76d0efff] 
+Loaded module: c:\windows\syswow64\rpcrt4.dll, address range [0x777d0000-0x77889fff] 
+Process c:\cpa_code\oop244\final_project\ms2\project1\debug\project1.exe exited with code 0. Leak analysis starting. Please wait... 
+Unloaded module: C:\CPA_Code\oop244\final_project\ms2\Project1\Debug\Project1.exe 
+Unloaded module: C:\Windows\SysWOW64\kernel32.dll 
+Unloaded module: C:\Windows\SysWOW64\KernelBase.dll 
+Unloaded module: C:\Windows\SysWOW64\ntdll.dll 
+Unloaded module: C:\Program Files\Norton Security\NortonData\22.20.2.57\Definitions\BASHDefs\20200721.001\UMEngx86.dll 
+Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll 
+Unloaded module: C:\Windows\SysWOW64\vcruntime140d.dll 
+Unloaded module: C:\Windows\SysWOW64\ucrtbased.dll 
+Unloaded module: C:\Windows\SysWOW64\kernel.appcore.dll 
+Unloaded module: C:\Windows\SysWOW64\msvcrt.dll 
+Unloaded module: C:\Windows\SysWOW64\rpcrt4.dll 
+Completed analysis for c:\cpa_code\oop244\final_project\ms2\project1\debug\project1.exe 
+Application exit code: 0 
+Result file: C:\CPA_Code\oop244\final_project\ms2\Project1\My Inspector Results - Project1\r000mi3\r000mi3.inspxe 
+Analysis completed
+=== End: [2020/07/28 03:53:48] === 

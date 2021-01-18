@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: C:\CPA_Code\oop244\w8\lab\Project1\My Inspector Results - Project1\r001mi3\r001mi3.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis started for c:\cpa_code\oop244\w8\lab\project1\debug\project1.exe (pid = 26500) </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\cpa_code\oop244\w8\lab\project1\debug\project1.exe, address range [0x780000-0x7a4fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x75ce0000-0x75dcffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x76af0000-0x76d02fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x76f10000-0x770b1fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xc110000-0xc1c5fff] </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xc400000-0xc574fff] </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\ucrtbased.dll </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xc400000-0xc41cfff] </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\vcruntime140d.dll </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xc400000-0xc4b5fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xc5d0000-0xc744fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xc810000-0xc82cfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel.appcore.dll, address range [0x743d0000-0x743defff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcrt.dll, address range [0x75870000-0x7592efff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\rpcrt4.dll, address range [0x74df0000-0x74ea9fff] </message>
+ <nop/>
+ <message severity="info">Process c:\cpa_code\oop244\w8\lab\project1\debug\project1.exe exited with code 0. Leak analysis starting. Please wait... </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\CPA_Code\oop244\w8\lab\Project1\Debug\Project1.exe </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\kernel32.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\KernelBase.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\ntdll.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\ucrtbased.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\vcruntime140d.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\kernel.appcore.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\msvcrt.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\rpcrt4.dll </message>
+ <nop/>
+ <message severity="info">Completed analysis for c:\cpa_code\oop244\w8\lab\project1\debug\project1.exe </message>
+ <nop/>
+ <message severity="info">Application exit code: 0 </message>
+ <nop/>
+ <message severity="info">Result file: C:\CPA_Code\oop244\w8\lab\Project1\My Inspector Results - Project1\r001mi3\r001mi3.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis completed</message>
+ <nop/>
+</feedback>

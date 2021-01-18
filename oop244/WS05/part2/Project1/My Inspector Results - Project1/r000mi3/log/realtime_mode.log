@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: C:\code\oop244\WS05\part 2\Project1\My Inspector Results - Project1\r000mi3\r000mi3.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis started for c:\code\oop244\ws05\part 2\project1\debug\project1.exe (pid = 13604) </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\code\oop244\ws05\part 2\project1\debug\project1.exe, address range [0xbc0000-0xbe4fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x76640000-0x7672ffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x77100000-0x77312fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x77a40000-0x77be1fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0x7a390000-0x7a445fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0x7a1f0000-0x7a20cfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0x7a210000-0x7a384fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel.appcore.dll, address range [0x74e50000-0x74e5efff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcrt.dll, address range [0x77970000-0x77a2efff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\rpcrt4.dll, address range [0x76dc0000-0x76e79fff] </message>
+ <nop/>
+ <message severity="info">Process c:\code\oop244\ws05\part 2\project1\debug\project1.exe exited with code 0. Leak analysis starting. Please wait... </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\code\oop244\WS05\part 2\Project1\Debug\Project1.exe </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\kernel32.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\KernelBase.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\ntdll.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\vcruntime140d.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\ucrtbased.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\kernel.appcore.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\msvcrt.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\rpcrt4.dll </message>
+ <nop/>
+ <message severity="info">Completed analysis for c:\code\oop244\ws05\part 2\project1\debug\project1.exe </message>
+ <nop/>
+ <message severity="info">Application exit code: 0 </message>
+ <nop/>
+ <message severity="info">Result file: C:\code\oop244\WS05\part 2\Project1\My Inspector Results - Project1\r000mi3\r000mi3.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis completed</message>
+ <nop/>
+</feedback>

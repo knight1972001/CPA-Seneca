@@ -1,0 +1,98 @@
+227503	int3 
+227504	mov eax, esi
+227506	and eax, 0xf
+227509	test eax, eax
+227511	jnz 0x379a0
+227517	mov edx, ecx
+227519	and ecx, 0x7f
+227522	shr edx, 0x7
+227525	jz 0x3792d
+227527	lea esp, ptr [esp]
+227534	mov edi, edi
+227536	movdqa xmm0, xmmword ptr [esi]
+227540	movdqa xmm1, xmmword ptr [esi+0x10]
+227545	movdqa xmm2, xmmword ptr [esi+0x20]
+227550	movdqa xmm3, xmmword ptr [esi+0x30]
+227555	movdqa xmmword ptr [edi], xmm0
+227559	movdqa xmmword ptr [edi+0x10], xmm1
+227564	movdqa xmmword ptr [edi+0x20], xmm2
+227569	movdqa xmmword ptr [edi+0x30], xmm3
+227574	movdqa xmm4, xmmword ptr [esi+0x40]
+227579	movdqa xmm5, xmmword ptr [esi+0x50]
+227584	movdqa xmm6, xmmword ptr [esi+0x60]
+227589	movdqa xmm7, xmmword ptr [esi+0x70]
+227594	movdqa xmmword ptr [edi+0x40], xmm4
+227599	movdqa xmmword ptr [edi+0x50], xmm5
+227604	movdqa xmmword ptr [edi+0x60], xmm6
+227609	movdqa xmmword ptr [edi+0x70], xmm7
+227614	lea esi, ptr [esi+0x80]
+227620	lea edi, ptr [edi+0x80]
+227626	dec edx
+227627	jnz 0x378d0
+227629	test ecx, ecx
+227631	jz 0x37990
+227633	mov edx, ecx
+227635	shr edx, 0x5
+227638	test edx, edx
+227640	jz 0x3795b
+227642	lea ebx, ptr [ebx]
+227648	movdqu xmm0, xmmword ptr [esi]
+227652	movdqu xmm1, xmmword ptr [esi+0x10]
+227657	movdqu xmmword ptr [edi], xmm0
+227661	movdqu xmmword ptr [edi+0x10], xmm1
+227666	lea esi, ptr [esi+0x20]
+227669	lea edi, ptr [edi+0x20]
+227672	dec edx
+227673	jnz 0x37940
+227675	and ecx, 0x1f
+227678	jz 0x37990
+227680	mov eax, ecx
+227682	shr ecx, 0x2
+227685	jz 0x37976
+227687	mov edx, dword ptr [esi]
+227689	mov dword ptr [edi], edx
+227691	add edi, 0x4
+227694	add esi, 0x4
+227697	sub ecx, 0x1
+227700	jnz 0x37967
+227702	mov ecx, eax
+227704	and ecx, 0x3
+227707	jz 0x37990
+227709	mov al, byte ptr [esi]
+227711	mov byte ptr [edi], al
+227713	inc esi
+227714	inc edi
+227715	dec ecx
+227716	jnz 0x3797d
+227718	lea esp, ptr [esp]
+227725	lea ecx, ptr [ecx]
+227728	mov eax, dword ptr [esp+0xc]
+227732	pop esi
+227733	pop edi
+227734	ret 
+227735	lea esp, ptr [esp]
+227742	mov edi, edi
+227744	mov edx, 0x10
+227749	sub edx, eax
+227751	sub ecx, edx
+227753	push ecx
+227754	mov eax, edx
+227756	mov ecx, eax
+227758	and ecx, 0x3
+227761	jz 0x379bc
+227763	mov dl, byte ptr [esi]
+227765	mov byte ptr [edi], dl
+227767	inc esi
+227768	inc edi
+227769	dec ecx
+227770	jnz 0x379b3
+227772	shr eax, 0x2
+227775	jz 0x379ce
+227777	mov edx, dword ptr [esi]
+227779	mov dword ptr [edi], edx
+227781	lea esi, ptr [esi+0x4]
+227784	lea edi, ptr [edi+0x4]
+227787	dec eax
+227788	jnz 0x379c1
+227790	pop ecx
+227791	jmp 0x378bd

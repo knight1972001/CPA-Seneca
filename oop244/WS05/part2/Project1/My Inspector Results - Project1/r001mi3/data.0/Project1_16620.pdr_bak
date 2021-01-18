@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<diags major="2" minor="0">
+
+<diag id="1">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>1035020250</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>16528</threadid>
+			<stackstamp>1035044970</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\syswow64\ntdll.dll</mod>
+				<rva>0x71076</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="2">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>3082996884</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>17152</threadid>
+			<stackstamp>3083021562</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\syswow64\ntdll.dll</mod>
+				<rva>0x50c90</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="3">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>3421837086</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>14436</threadid>
+			<stackstamp>3421847312</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\syswow64\ntdll.dll</mod>
+				<rva>0x50c90</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="4">
+	<type description="ThreadStart">233</type>
+	<message>
+		<timestamp>3915665725</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>4244</threadid>
+			<stackstamp>3915676225</stackstamp>
+			<stacktrace>
+			<loc>
+				<mod>c:\windows\syswow64\ntdll.dll</mod>
+				<rva>0x50c90</rva>
+			</loc>
+			</stacktrace>
+		</thread>
+	</message>
+</diag>
+
+<diag id="5">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>13776276712</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>17152</threadid>
+			<stackstamp>13776288148</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="6">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>13776529962</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>14436</threadid>
+			<stackstamp>13776540810</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="7">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>13776766992</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>4244</threadid>
+			<stackstamp>13776777700</stackstamp>
+		</thread>
+	</message>
+</diag>
+
+<diag id="8">
+	<type description="ThreadEnd">231</type>
+	<message>
+		<timestamp>14921275740</timestamp>
+		<thread>
+			<thrname></thrname>
+			<threadid>16528</threadid>
+			<stackstamp>14921286656</stackstamp>
+		</thread>
+	</message>
+</diag>
+</diags>

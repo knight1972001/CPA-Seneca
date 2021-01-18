@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2020/07/07 23:51:04</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\code\oop244\w6\lab\Project1\My Inspector Results - Project1\r000mi3\r000mi3.inspxe</arg>
+</msg>
+<msg id="4" tool="mc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>c:\code\oop244\w6\lab\project1\debug\project1.exe</arg>
+  <arg>16540</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:06 2020</timestamp>
+</msg>
+<msg id="5" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\code\oop244\w6\lab\project1\debug\project1.exe</arg>
+  <arg>0xe0000</arg>
+  <arg>0x104fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:06 2020</timestamp>
+</msg>
+<msg id="6" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel32.dll</arg>
+  <arg>0x76790000</arg>
+  <arg>0x7687ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:06 2020</timestamp>
+</msg>
+<msg id="7" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernelbase.dll</arg>
+  <arg>0x76b40000</arg>
+  <arg>0x76d52fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:06 2020</timestamp>
+</msg>
+<msg id="8" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ntdll.dll</arg>
+  <arg>0x77c60000</arg>
+  <arg>0x77e01fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:06 2020</timestamp>
+</msg>
+<msg id="9" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\program files\norton security\nortondata\22.20.2.57\definitions\bashdefs\20200706.001\umengx86.dll</arg>
+  <arg>0x6d3b0000</arg>
+  <arg>0x6d417fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:06 2020</timestamp>
+</msg>
+<msg id="10" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcp140d.dll</arg>
+  <arg>0x7c950000</arg>
+  <arg>0x7ca05fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:07 2020</timestamp>
+</msg>
+<msg id="11" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbased.dll</arg>
+  <arg>0x7c7d0000</arg>
+  <arg>0x7c944fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:07 2020</timestamp>
+</msg>
+<msg id="12" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\vcruntime140d.dll</arg>
+  <arg>0x7b6b0000</arg>
+  <arg>0x7b6ccfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:07 2020</timestamp>
+</msg>
+<msg id="13" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>0,1,1,1,1</arg>
+  <arg>195348,583,1478,463,504</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:10 2020</timestamp>
+</msg>
+<msg id="14" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel.appcore.dll</arg>
+  <arg>0x74fd0000</arg>
+  <arg>0x74fdefff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:10 2020</timestamp>
+</msg>
+<msg id="15" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcrt.dll</arg>
+  <arg>0x77320000</arg>
+  <arg>0x773defff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:10 2020</timestamp>
+</msg>
+<msg id="16" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\rpcrt4.dll</arg>
+  <arg>0x76930000</arg>
+  <arg>0x769e9fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:10 2020</timestamp>
+</msg>
+<msg id="17" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\user32.dll</arg>
+  <arg>0x75be0000</arg>
+  <arg>0x75d72fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:10 2020</timestamp>
+</msg>
+<msg id="18" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\win32u.dll</arg>
+  <arg>0x76910000</arg>
+  <arg>0x76927fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:10 2020</timestamp>
+</msg>
+<msg id="19" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\gdi32.dll</arg>
+  <arg>0x769f0000</arg>
+  <arg>0x76a12fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:10 2020</timestamp>
+</msg>
+<msg id="20" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\gdi32full.dll</arg>
+  <arg>0x76520000</arg>
+  <arg>0x765f9fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:10 2020</timestamp>
+</msg>
+<msg id="21" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcp_win.dll</arg>
+  <arg>0x77120000</arg>
+  <arg>0x7719afff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:10 2020</timestamp>
+</msg>
+<msg id="22" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbase.dll</arg>
+  <arg>0x76a20000</arg>
+  <arg>0x76b3ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:10 2020</timestamp>
+</msg>
+<msg id="23" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>0,1,1,1,1</arg>
+  <arg>18158,0,820,1298,24</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:11 2020</timestamp>
+</msg>
+<msg id="24" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\imm32.dll</arg>
+  <arg>0x76d60000</arg>
+  <arg>0x76d84fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:11 2020</timestamp>
+</msg>
+<msg id="25" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\textshaping.dll</arg>
+  <arg>0x63260000</arg>
+  <arg>0x632f3fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:11 2020</timestamp>
+</msg>
+<msg id="26" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>0,1,1,1,1</arg>
+  <arg>24941,0,0,251,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:12 2020</timestamp>
+</msg>
+<msg id="27" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\uxtheme.dll</arg>
+  <arg>0x70e00000</arg>
+  <arg>0x70e73fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:12 2020</timestamp>
+</msg>
+<msg id="28" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\combase.dll</arg>
+  <arg>0x779d0000</arg>
+  <arg>0x77c4ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:12 2020</timestamp>
+</msg>
+<msg id="29" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>0,1,1,1,1</arg>
+  <arg>110803,0,0,809,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:13 2020</timestamp>
+</msg>
+<msg id="30" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\msctf.dll</arg>
+  <arg>0x76440000</arg>
+  <arg>0x76511fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:13 2020</timestamp>
+</msg>
+<msg id="31" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\oleaut32.dll</arg>
+  <arg>0x75b40000</arg>
+  <arg>0x75bd5fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:13 2020</timestamp>
+</msg>
+<msg id="32" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\sechost.dll</arg>
+  <arg>0x77210000</arg>
+  <arg>0x77284fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:13 2020</timestamp>
+</msg>
+<msg id="33" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>15479,0,27,982,24</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:14 2020</timestamp>
+</msg>
+<msg id="34" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\bcryptprimitives.dll</arg>
+  <arg>0x76730000</arg>
+  <arg>0x7678bfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:14 2020</timestamp>
+</msg>
+<msg id="35" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>0,1,1,1,1</arg>
+  <arg>15520,0,0,27,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:15 2020</timestamp>
+</msg>
+<msg id="36" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\textinputframework.dll</arg>
+  <arg>0x6e550000</arg>
+  <arg>0x6e608fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:15 2020</timestamp>
+</msg>
+<msg id="37" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\coremessaging.dll</arg>
+  <arg>0x6d7d0000</arg>
+  <arg>0x6d86afff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:15 2020</timestamp>
+</msg>
+<msg id="38" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\coreuicomponents.dll</arg>
+  <arg>0x68d40000</arg>
+  <arg>0x68fbdfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:15 2020</timestamp>
+</msg>
+<msg id="39" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ws2_32.dll</arg>
+  <arg>0x773e0000</arg>
+  <arg>0x77442fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:15 2020</timestamp>
+</msg>
+<msg id="40" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ntmarta.dll</arg>
+  <arg>0x75320000</arg>
+  <arg>0x75348fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:15 2020</timestamp>
+</msg>
+<msg id="41" tool="mc">
+  <type>MODULE_LOAD_NO_ANALYSIS</type>
+  <arg>c:\windows\syswow64\shcore.dll</arg>
+  <arg>0x77290000</arg>
+  <arg>0x77316fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:15 2020</timestamp>
+</msg>
+<msg id="42" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\wintypes.dll</arg>
+  <arg>0x6dec0000</arg>
+  <arg>0x6df9dfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:15 2020</timestamp>
+</msg>
+<msg id="43" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\advapi32.dll</arg>
+  <arg>0x76f30000</arg>
+  <arg>0x76fa8fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:15 2020</timestamp>
+</msg>
+<msg id="44" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>0,1,1,1,1</arg>
+  <arg>10141,4395,5013,6345,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:16 2020</timestamp>
+</msg>
+<msg id="45" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>0,1,1,1,1</arg>
+  <arg>15456,0,0,0,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:17 2020</timestamp>
+</msg>
+<msg id="46" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>1,1,1,1,0</arg>
+  <arg>47050,0,0,0,26</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:18 2020</timestamp>
+</msg>
+<msg id="47" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>38422,0,0,0,28</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:19 2020</timestamp>
+</msg>
+<msg id="48" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>32280,0,0,0,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:20 2020</timestamp>
+</msg>
+<msg id="49" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>50708,0,0,0,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:21 2020</timestamp>
+</msg>
+<msg id="50" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>47824,0,0,0,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:22 2020</timestamp>
+</msg>
+<msg id="51" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>77302,0,0,0,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:23 2020</timestamp>
+</msg>
+<msg id="52" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>17661,0,0,0,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:24 2020</timestamp>
+</msg>
+<msg id="53" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>3399,0,0,0,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:25 2020</timestamp>
+</msg>
+<msg id="54" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>0,0,0,0,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:26 2020</timestamp>
+</msg>
+<msg id="55" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>10332,0,0,0,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:27 2020</timestamp>
+</msg>
+<msg id="56" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>115075,0,0,0,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:28 2020</timestamp>
+</msg>
+<msg id="57" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>0,1,1,1,1</arg>
+  <arg>27249,0,0,0,24</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:29 2020</timestamp>
+</msg>
+<msg id="58" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176</arg>
+  <arg>0,1,1,1,1</arg>
+  <arg>16843,0,0,0,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:30 2020</timestamp>
+</msg>
+<msg id="59" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364</arg>
+  <arg>0,1,1,1,1,1</arg>
+  <arg>16833,0,0,0,30,261</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:31 2020</timestamp>
+</msg>
+<msg id="60" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364</arg>
+  <arg>1,1,1,1,1,1</arg>
+  <arg>2226,0,0,0,30,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:32 2020</timestamp>
+</msg>
+<msg id="61" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364</arg>
+  <arg>1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:33 2020</timestamp>
+</msg>
+<msg id="62" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364</arg>
+  <arg>1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:34 2020</timestamp>
+</msg>
+<msg id="63" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364</arg>
+  <arg>1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:35 2020</timestamp>
+</msg>
+<msg id="64" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364</arg>
+  <arg>1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:36 2020</timestamp>
+</msg>
+<msg id="65" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364</arg>
+  <arg>1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:37 2020</timestamp>
+</msg>
+<msg id="66" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364</arg>
+  <arg>1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,24,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:38 2020</timestamp>
+</msg>
+<msg id="67" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364</arg>
+  <arg>1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:39 2020</timestamp>
+</msg>
+<msg id="68" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364</arg>
+  <arg>1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:40 2020</timestamp>
+</msg>
+<msg id="69" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364</arg>
+  <arg>1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:41 2020</timestamp>
+</msg>
+<msg id="70" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364</arg>
+  <arg>1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:42 2020</timestamp>
+</msg>
+<msg id="71" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364</arg>
+  <arg>1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:43 2020</timestamp>
+</msg>
+<msg id="72" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364</arg>
+  <arg>1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:44 2020</timestamp>
+</msg>
+<msg id="73" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364</arg>
+  <arg>1,1,1,1,0,1</arg>
+  <arg>0,0,0,0,29,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:45 2020</timestamp>
+</msg>
+<msg id="74" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,25,0,62</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:46 2020</timestamp>
+</msg>
+<msg id="75" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:47 2020</timestamp>
+</msg>
+<msg id="76" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:48 2020</timestamp>
+</msg>
+<msg id="77" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:49 2020</timestamp>
+</msg>
+<msg id="78" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:50 2020</timestamp>
+</msg>
+<msg id="79" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:51 2020</timestamp>
+</msg>
+<msg id="80" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:52 2020</timestamp>
+</msg>
+<msg id="81" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:53 2020</timestamp>
+</msg>
+<msg id="82" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:54 2020</timestamp>
+</msg>
+<msg id="83" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,24,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:55 2020</timestamp>
+</msg>
+<msg id="84" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:56 2020</timestamp>
+</msg>
+<msg id="85" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:57 2020</timestamp>
+</msg>
+<msg id="86" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:58 2020</timestamp>
+</msg>
+<msg id="87" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:51:59 2020</timestamp>
+</msg>
+<msg id="88" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:00 2020</timestamp>
+</msg>
+<msg id="89" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:01 2020</timestamp>
+</msg>
+<msg id="90" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:02 2020</timestamp>
+</msg>
+<msg id="91" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:03 2020</timestamp>
+</msg>
+<msg id="92" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:04 2020</timestamp>
+</msg>
+<msg id="93" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,0,1,1</arg>
+  <arg>0,0,0,0,24,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:05 2020</timestamp>
+</msg>
+<msg id="94" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,22068,1608,21184,14176,19364,15516</arg>
+  <arg>1,1,1,1,1,1,1</arg>
+  <arg>0,0,0,0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:06 2020</timestamp>
+</msg>
+<msg id="95" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:07 2020</timestamp>
+</msg>
+<msg id="96" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:08 2020</timestamp>
+</msg>
+<msg id="97" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:09 2020</timestamp>
+</msg>
+<msg id="98" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:10 2020</timestamp>
+</msg>
+<msg id="99" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:11 2020</timestamp>
+</msg>
+<msg id="100" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:12 2020</timestamp>
+</msg>
+<msg id="101" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:13 2020</timestamp>
+</msg>
+<msg id="102" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:14 2020</timestamp>
+</msg>
+<msg id="103" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:15 2020</timestamp>
+</msg>
+<msg id="104" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:16 2020</timestamp>
+</msg>
+<msg id="105" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:17 2020</timestamp>
+</msg>
+<msg id="106" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:18 2020</timestamp>
+</msg>
+<msg id="107" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:19 2020</timestamp>
+</msg>
+<msg id="108" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:20 2020</timestamp>
+</msg>
+<msg id="109" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:21 2020</timestamp>
+</msg>
+<msg id="110" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:22 2020</timestamp>
+</msg>
+<msg id="111" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,0,1,1</arg>
+  <arg>0,26,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:23 2020</timestamp>
+</msg>
+<msg id="112" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,28,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:24 2020</timestamp>
+</msg>
+<msg id="113" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:25 2020</timestamp>
+</msg>
+<msg id="114" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:26 2020</timestamp>
+</msg>
+<msg id="115" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:27 2020</timestamp>
+</msg>
+<msg id="116" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:28 2020</timestamp>
+</msg>
+<msg id="117" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:29 2020</timestamp>
+</msg>
+<msg id="118" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,30,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:30 2020</timestamp>
+</msg>
+<msg id="119" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>9268,14176,19364,15516</arg>
+  <arg>1,1,1,1</arg>
+  <arg>0,24,0,0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul  7 23:52:31 2020</timestamp>
+</msg>
+<msg id="120" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>1</arg>
+</msg>
+<msg id="121" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\code\oop244\w6\lab\Project1\My Inspector Results - Project1\r000mi3\r000mi3.inspxe</arg>
+</msg>
+<msg id="122" tool="runtool">
+  <type>collector-canceled</type>
+</msg>
+<msg id="123" tool="runtool">
+  <type>log-end</type>
+  <arg>2020/07/07 23:52:36</arg>
+</msg>
+
+</log>
+

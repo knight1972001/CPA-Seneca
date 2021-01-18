@@ -1,0 +1,37 @@
+
+=== Start: [2020/07/22 06:47:07] === 
+Analysis started...
+Result file: C:\CPA_Code\oop244\w8\lab\Project1\My Inspector Results - Project1\r001mi3\r001mi3.inspxe 
+Analysis started for c:\cpa_code\oop244\w8\lab\project1\debug\project1.exe (pid = 26500) 
+Loaded module: c:\cpa_code\oop244\w8\lab\project1\debug\project1.exe, address range [0x780000-0x7a4fff] 
+Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x75ce0000-0x75dcffff] 
+Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x76af0000-0x76d02fff] 
+Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x76f10000-0x770b1fff] 
+Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xc110000-0xc1c5fff] 
+Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll 
+Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xc400000-0xc574fff] 
+Unloaded module: C:\Windows\SysWOW64\ucrtbased.dll 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xc400000-0xc41cfff] 
+Unloaded module: C:\Windows\SysWOW64\vcruntime140d.dll 
+Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xc400000-0xc4b5fff] 
+Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xc5d0000-0xc744fff] 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xc810000-0xc82cfff] 
+Loaded module: c:\windows\syswow64\kernel.appcore.dll, address range [0x743d0000-0x743defff] 
+Loaded module: c:\windows\syswow64\msvcrt.dll, address range [0x75870000-0x7592efff] 
+Loaded module: c:\windows\syswow64\rpcrt4.dll, address range [0x74df0000-0x74ea9fff] 
+Process c:\cpa_code\oop244\w8\lab\project1\debug\project1.exe exited with code 0. Leak analysis starting. Please wait... 
+Unloaded module: C:\CPA_Code\oop244\w8\lab\Project1\Debug\Project1.exe 
+Unloaded module: C:\Windows\SysWOW64\kernel32.dll 
+Unloaded module: C:\Windows\SysWOW64\KernelBase.dll 
+Unloaded module: C:\Windows\SysWOW64\ntdll.dll 
+Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll 
+Unloaded module: C:\Windows\SysWOW64\ucrtbased.dll 
+Unloaded module: C:\Windows\SysWOW64\vcruntime140d.dll 
+Unloaded module: C:\Windows\SysWOW64\kernel.appcore.dll 
+Unloaded module: C:\Windows\SysWOW64\msvcrt.dll 
+Unloaded module: C:\Windows\SysWOW64\rpcrt4.dll 
+Completed analysis for c:\cpa_code\oop244\w8\lab\project1\debug\project1.exe 
+Application exit code: 0 
+Result file: C:\CPA_Code\oop244\w8\lab\Project1\My Inspector Results - Project1\r001mi3\r001mi3.inspxe 
+Analysis completed
+=== End: [2020/07/22 06:47:15] === 

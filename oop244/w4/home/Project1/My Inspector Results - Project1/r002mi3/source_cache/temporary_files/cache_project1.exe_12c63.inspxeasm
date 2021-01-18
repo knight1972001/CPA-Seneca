@@ -1,0 +1,58 @@
+76832	?set@Saiyan@sdds@@QAEXPBDHHH_N@Z:
+76832	push ebp
+76833	mov ebp, esp
+76835	sub esp, 0xe4
+76841	push ebx
+76842	push esi
+76843	push edi
+76844	push ecx
+76845	lea edi, ptr [ebp-0xe4]
+76851	mov ecx, 0x39
+76856	mov eax, 0xcccccccc
+76861	rep stosd dword ptr [edi]
+76863	pop ecx
+76864	mov dword ptr [ebp-0x8], ecx
+76867	mov ecx, 0x420062
+76872	call 0x112f8
+76877	mov eax, dword ptr [ebp+0x8]
+76880	push eax
+76881	call 0x11091
+76886	add esp, 0x4
+76889	add eax, 0x1
+76892	mov dword ptr [ebp-0x14], eax
+76895	mov eax, dword ptr [ebp-0x14]
+76898	push eax
+76899	call 0x110fa
+76904	add esp, 0x4
+76907	mov dword ptr [ebp-0xe0], eax
+76913	mov ecx, dword ptr [ebp-0x8]
+76916	mov edx, dword ptr [ebp-0xe0]
+76922	mov dword ptr [ecx], edx
+76924	mov eax, dword ptr [ebp+0x8]
+76927	push eax
+76928	mov ecx, dword ptr [ebp-0x8]
+76931	mov edx, dword ptr [ecx]
+76933	push edx
+76934	call 0x1133e
+76939	add esp, 0x8
+76942	mov eax, dword ptr [ebp-0x8]
+76945	mov ecx, dword ptr [ebp+0x14]
+76948	mov dword ptr [eax+0x4], ecx
+76951	mov eax, dword ptr [ebp-0x8]
+76954	mov ecx, dword ptr [ebp+0xc]
+76957	mov dword ptr [eax+0x8], ecx
+76960	mov eax, dword ptr [ebp-0x8]
+76963	mov ecx, dword ptr [ebp+0x10]
+76966	mov dword ptr [eax+0xc], ecx
+76969	mov eax, dword ptr [ebp-0x8]
+76972	mov cl, byte ptr [ebp+0x18]
+76975	mov byte ptr [eax+0x10], cl
+76978	pop edi
+76979	pop esi
+76980	pop ebx
+76981	add esp, 0xe4
+76987	cmp ebp, esp
+76989	call 0x11302
+76994	mov esp, ebp
+76996	pop ebp
+76997	ret 0x14

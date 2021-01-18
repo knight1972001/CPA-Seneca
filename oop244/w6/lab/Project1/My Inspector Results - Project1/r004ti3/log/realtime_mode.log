@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: C:\code\oop244\w6\lab\Project1\My Inspector Results - Project1\r004ti3\r004ti3.inspxe </message>
+ <nop/>
+ <message severity="info">Found target process c:\code\oop244\w6\lab\project1\debug\project1.exe (PID = 8716). Analysis started... </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\code\oop244\w6\lab\project1\debug\project1.exe. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel32.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernelbase.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ntdll.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files\norton security\nortondata\22.20.2.57\definitions\bashdefs\20200706.001\umengx86.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\vcruntime140d.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ucrtbased.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcp140d.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel.appcore.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcrt.dll. </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\rpcrt4.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\code\oop244\w6\lab\project1\debug\project1.exe. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\kernel32.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\kernelbase.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\ntdll.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\program files\norton security\nortondata\22.20.2.57\definitions\bashdefs\20200706.001\umengx86.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\vcruntime140d.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\ucrtbased.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\msvcp140d.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\kernel.appcore.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\msvcrt.dll. </message>
+ <nop/>
+ <message severity="info">Unloaded module: c:\windows\syswow64\rpcrt4.dll. </message>
+ <nop/>
+ <message severity="info">Process c:\code\oop244\w6\lab\project1\debug\project1.exe (PID = 8716) has terminated. </message>
+ <nop/>
+ <message severity="info">Application exit code: 0 </message>
+ <nop/>
+ <message severity="info">Result file: C:\code\oop244\w6\lab\Project1\My Inspector Results - Project1\r004ti3\r004ti3.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis completed</message>
+ <nop/>
+</feedback>

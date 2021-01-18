@@ -1,0 +1,9 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NAA
+// Day:			    July 26th 2020
+// Workshop:       	9 (Part 1)
+//==============================================
+Through this project, I learn how to use the Function template and Class template in C++. Using the keyword "template" greatly reduces the time and effort required to re-code a function that is used for multiple data types, and is easy to maintain, develop or change the source code. The code has a bool array to record all the values that true or false base on the comparison. However, the validate function will return false if there is any value greater than or equal to the minimum value. To do this process, I use an integer variable to check each value. If any values in the bool array are false, the function will return a false value (base on the code in output file and main file). Moreover, the code uses the overload function and overload insertion operator (>=) to return the value of (value[I]>=minimum) to check two values between other classes.

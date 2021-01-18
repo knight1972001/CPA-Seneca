@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\code\oop244\w4\home\Project1\Saiyan.cpp" md5="90cd849a189a8729af95125c59e1855e">
+    <snippet line="36">
+      <line line="33">			if (strlen(name) &gt; 0)</line>
+      <line line="34">			{</line>
+      <line line="35">				set(name, dob, power,level,super);</line>
+      <line line="36">			}</line>
+      <line line="37">		}</line>
+    </snippet>
+    <snippet line="51">
+      <line line="48">        </line>
+      <line line="49">        int a = strlen(name);</line>
+      <line line="50">        this-&gt;m_name = new char[a];</line>
+      <line line="51">        strcpy(this-&gt;m_name, name);</line>
+      <line line="52">        this-&gt;m_level = level;</line>
+    </snippet>
+    <snippet line="52">
+      <line line="49">        int a = strlen(name);</line>
+      <line line="50">        this-&gt;m_name = new char[a];</line>
+      <line line="51">        strcpy(this-&gt;m_name, name);</line>
+      <line line="52">        this-&gt;m_level = level;</line>
+      <line line="53">        this-&gt;m_dob = dob;</line>
+    </snippet>
+  </file>
+</snippets>

@@ -1,0 +1,39 @@
+
+=== Start: [2020/08/02 07:56:20] === 
+Analysis started...
+Result file: C:\CPA_Code\oop244\final_project\ms4\Project1\My Inspector Results - Project1\r000mi3\r000mi3.inspxe 
+Analysis started for c:\cpa_code\oop244\final_project\ms4\project1\debug\project1.exe (pid = 20580) 
+Loaded module: c:\cpa_code\oop244\final_project\ms4\project1\debug\project1.exe, address range [0x510000-0x53afff] 
+Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x76900000-0x769effff] 
+Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x77680000-0x77892fff] 
+Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x77990000-0x77b31fff] 
+Loaded module: c:\program files\norton security\nortondata\22.20.2.57\definitions\bashdefs\20200728.001\umengx86.dll, address range [0x67590000-0x675f7fff] 
+Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xc560000-0xc615fff] 
+Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll 
+Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xc7c0000-0xc934fff] 
+Unloaded module: C:\Windows\SysWOW64\ucrtbased.dll 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xc7c0000-0xc7dcfff] 
+Unloaded module: C:\Windows\SysWOW64\vcruntime140d.dll 
+Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xc7c0000-0xc875fff] 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xc8b0000-0xc8ccfff] 
+Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xc980000-0xcaf4fff] 
+Loaded module: c:\windows\syswow64\kernel.appcore.dll, address range [0x74e50000-0x74e5efff] 
+Loaded module: c:\windows\syswow64\msvcrt.dll, address range [0x77150000-0x7720efff] 
+Loaded module: c:\windows\syswow64\rpcrt4.dll, address range [0x77350000-0x77409fff] 
+Process c:\cpa_code\oop244\final_project\ms4\project1\debug\project1.exe exited with code 0. Leak analysis starting. Please wait... 
+Unloaded module: C:\CPA_Code\oop244\final_project\ms4\Project1\Debug\Project1.exe 
+Unloaded module: C:\Windows\SysWOW64\kernel32.dll 
+Unloaded module: C:\Windows\SysWOW64\KernelBase.dll 
+Unloaded module: C:\Windows\SysWOW64\ntdll.dll 
+Unloaded module: C:\Program Files\Norton Security\NortonData\22.20.2.57\Definitions\BASHDefs\20200728.001\UMEngx86.dll 
+Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll 
+Unloaded module: C:\Windows\SysWOW64\vcruntime140d.dll 
+Unloaded module: C:\Windows\SysWOW64\ucrtbased.dll 
+Unloaded module: C:\Windows\SysWOW64\kernel.appcore.dll 
+Unloaded module: C:\Windows\SysWOW64\msvcrt.dll 
+Unloaded module: C:\Windows\SysWOW64\rpcrt4.dll 
+Completed analysis for c:\cpa_code\oop244\final_project\ms4\project1\debug\project1.exe 
+Application exit code: 0 
+Result file: C:\CPA_Code\oop244\final_project\ms4\Project1\My Inspector Results - Project1\r000mi3\r000mi3.inspxe 
+Analysis completed
+=== End: [2020/08/02 07:56:45] === 

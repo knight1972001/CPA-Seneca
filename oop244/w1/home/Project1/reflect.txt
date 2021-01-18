@@ -1,0 +1,9 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NAA
+// Day:			May 28th 2020
+// Workshop:       	1 (Part 2)
+//==============================================
+Through this workshop, I realized it is not too different between C and C++. It's a little hard for the first time because I still like C, but everything is ok now. I created the support function for the workshop in the namespace intFunc. So in the future, if I want to use the function from this file, I just need to include it to my workshop and no need to code it again. The algorithm of this workshop is not too difficult because I figured them out in IPC144. I insert the addition function to check the name contains the number or not. I think it's necessary for the name. It's a little confusing about the comma of the output after the array was sorted. However, I solved it in a not-good way, I will try to think about it later. OOP244 is different at the main function. It does not contain too much and is solved in a different file. 

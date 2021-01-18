@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: C:\code\oop244\w4\home\Project1\My Inspector Results - Project1\r001mi3\r001mi3.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis started for c:\code\oop244\w4\home\project1\debug\project1.exe (pid = 17764) </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\code\oop244\w4\home\project1\debug\project1.exe, address range [0x120000-0x143fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x76b40000-0x76c2ffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x77900000-0x77b12fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x77cd0000-0x77e71fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xc270000-0xc325fff] </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0x7b7f0000-0x7b964fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0x51d70000-0x51d8cfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xcc10000-0xccc5fff] </message>
+ <nop/>
+ <message severity="warning">Detected fatal exception in the application. See result for details. </message>
+ <nop/>
+ <message severity="info">Application exit code: -1073741819 </message>
+ <nop/>
+ <message severity="info">Result file: C:\code\oop244\w4\home\Project1\My Inspector Results - Project1\r001mi3\r001mi3.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis completed</message>
+ <nop/>
+</feedback>

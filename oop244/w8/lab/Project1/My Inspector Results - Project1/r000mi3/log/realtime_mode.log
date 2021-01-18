@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: C:\CPA_Code\oop244\w8\lab\Project1\My Inspector Results - Project1\r000mi3\r000mi3.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis started for c:\cpa_code\oop244\w8\lab\project1\debug\project1.exe (pid = 18952) </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\cpa_code\oop244\w8\lab\project1\debug\project1.exe, address range [0x4c0000-0x4e4fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x75ce0000-0x75dcffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x76af0000-0x76d02fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x76f10000-0x770b1fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files\norton security\nortondata\22.20.2.57\definitions\bashdefs\20200714.001\umengx86.dll, address range [0x688d0000-0x68937fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xc3b0000-0xc465fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xc690000-0xc6acfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xc6c0000-0xc834fff] </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\vcruntime140d.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\ucrtbased.dll </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0xc3c0000-0xc3dcfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xc6c0000-0xc775fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0xc950000-0xcac4fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel.appcore.dll, address range [0x743d0000-0x743defff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcrt.dll, address range [0x75870000-0x7592efff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\rpcrt4.dll, address range [0x74df0000-0x74ea9fff] </message>
+ <nop/>
+ <message severity="info">Process c:\cpa_code\oop244\w8\lab\project1\debug\project1.exe exited with code 0. Leak analysis starting. Please wait... </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\CPA_Code\oop244\w8\lab\Project1\Debug\Project1.exe </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\kernel32.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\KernelBase.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\ntdll.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Program Files\Norton Security\NortonData\22.20.2.57\Definitions\BASHDefs\20200714.001\UMEngx86.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\vcruntime140d.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\ucrtbased.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\kernel.appcore.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\msvcrt.dll </message>
+ <nop/>
+ <message severity="info">Unloaded module: C:\Windows\SysWOW64\rpcrt4.dll </message>
+ <nop/>
+ <message severity="info">Completed analysis for c:\cpa_code\oop244\w8\lab\project1\debug\project1.exe </message>
+ <nop/>
+ <message severity="info">Application exit code: 0 </message>
+ <nop/>
+ <message severity="info">Result file: C:\CPA_Code\oop244\w8\lab\Project1\My Inspector Results - Project1\r000mi3\r000mi3.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis completed</message>
+ <nop/>
+</feedback>

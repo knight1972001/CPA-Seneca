@@ -1,0 +1,19 @@
+
+=== Start: [2020/06/18 23:58:35] === 
+Analysis started...
+Result file: C:\code\oop244\w4\home\Project1\My Inspector Results - Project1\r001mi3\r001mi3.inspxe 
+Analysis started for c:\code\oop244\w4\home\project1\debug\project1.exe (pid = 17764) 
+Loaded module: c:\code\oop244\w4\home\project1\debug\project1.exe, address range [0x120000-0x143fff] 
+Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x76b40000-0x76c2ffff] 
+Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x77900000-0x77b12fff] 
+Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x77cd0000-0x77e71fff] 
+Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xc270000-0xc325fff] 
+Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll 
+Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0x7b7f0000-0x7b964fff] 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0x51d70000-0x51d8cfff] 
+Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0xcc10000-0xccc5fff] 
+Warning: Detected fatal exception in the application. See result for details. 
+Application exit code: -1073741819 
+Result file: C:\code\oop244\w4\home\Project1\My Inspector Results - Project1\r001mi3\r001mi3.inspxe 
+Analysis completed
+=== End: [2020/06/18 23:58:43] === 

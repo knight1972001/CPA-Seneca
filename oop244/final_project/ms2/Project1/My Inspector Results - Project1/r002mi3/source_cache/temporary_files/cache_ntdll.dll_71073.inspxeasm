@@ -1,0 +1,18 @@
+462944	push ebp
+462945	mov ebp, esp
+462947	push esi
+462948	push edi
+462949	push ebx
+462950	mov esi, esp
+462952	xor eax, eax
+462954	push dword ptr [ebp+0x14]
+462957	push dword ptr [ebp+0x10]
+462960	push dword ptr [ebp+0xc]
+462963	call dword ptr [ebp+0x8]
+462966	mov esp, esi
+462968	pop ebx
+462969	pop edi
+462970	pop esi
+462971	pop ebp
+462972	ret 0x10
+462975	nop

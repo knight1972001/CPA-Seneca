@@ -1,0 +1,17 @@
+﻿  Source.cpp
+C:\CPA_Code\DBS211\w7\Project1\Source.cpp(43,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\CPA_Code\DBS211\w7\Project1\Source.cpp(54,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\CPA_Code\DBS211\w7\Project1\Source.cpp(65,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\CPA_Code\DBS211\w7\Project1\Source.cpp(76,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\CPA_Code\DBS211\w7\Project1\Source.cpp(87,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\CPA_Code\DBS211\w7\Project1\Source.cpp(98,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\CPA_Code\DBS211\w7\Project1\Source.cpp(151,12): warning C4477: 'printf' : format string '%-15s' requires an argument of type 'char *', but variadic argument 2 has type 'std::string'
+C:\CPA_Code\DBS211\w7\Project1\Source.cpp(151,12): warning C4477: 'printf' : format string '%-15s' requires an argument of type 'char *', but variadic argument 3 has type 'std::string'
+C:\CPA_Code\DBS211\w7\Project1\Source.cpp(151,12): warning C4477: 'printf' : format string '%-15s' requires an argument of type 'char *', but variadic argument 4 has type 'std::string'
+C:\CPA_Code\DBS211\w7\Project1\Source.cpp(151,12): warning C4477: 'printf' : format string '%-10s' requires an argument of type 'char *', but variadic argument 5 has type 'std::string'
+  Generating code
+  1 of 85 functions ( 1.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Project1.vcxproj -> C:\CPA_Code\DBS211\w7\Project1\x64\Release\Project1.exe

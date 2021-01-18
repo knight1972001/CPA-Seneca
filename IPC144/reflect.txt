@@ -1,0 +1,12 @@
+//==============================================
+// Name:           Long Nguyen
+// Student Number: 155176183
+// Email:          lnguyen97@myseneca.ca
+// Section:        NII
+// Date:           March 19th, 2020
+//==============================================
+// Assignment:     2
+// Milestone:      2	(reflect)
+//==============================================
+The function is a piece of reusable statements. It supports modular design through function syntax.  Functions transfer control between one another. Moreover, it allows programmers to structure the program into different segments to perform different tasks. Through this workshop, I think it is very necessary to use the function in any programming language. It helps me control the code easier and more clearly. Each function just does only a single task, so when I have an error or wrong output, I just access this module to check. Moreover, if my program has many functions, I just mark a comment to other functions and check the function that has an error. However, I need to careful to make sure each function has a connection. 
+The helper function should be separate from the contacts module because "ContactHelpers" hold functions that use to check and to be called by other functions. While "contacts" are used to input the information of the user. Moreover, "Contacts" use functions from "ContactHelpers" to check the input of a user is correct or not. Separating two modules to help our code more clear and easy to understand.

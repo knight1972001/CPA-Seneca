@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\code\oop244\w4\home\Project1\Saiyan.cpp" md5="d88a0503dabe323973ff782f4472437a">
+    <snippet line="36">
+      <line line="33">			if (strlen(name) &gt; 0)</line>
+      <line line="34">			{</line>
+      <line line="35">				set(name, dob, power,level,super);</line>
+      <line line="36">			}</line>
+      <line line="37">		}</line>
+    </snippet>
+    <snippet line="50">
+      <line line="47">    void Saiyan::set(const char* name, int dob, int power, int level, bool super) {</line>
+      <line line="48">        int a = strlen(name)+1;</line>
+      <line line="49">        this-&gt;m_name = new char[a];</line>
+      <line line="50">        strcpy(this-&gt;m_name, name);</line>
+      <line line="51">        this-&gt;m_level = level;</line>
+    </snippet>
+  </file>
+</snippets>

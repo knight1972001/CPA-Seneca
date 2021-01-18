@@ -1,0 +1,9 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NAA
+// Day:			    June 23th 2020
+// Workshop:       	5 (Part 2)
+//==============================================
+The explicit specifier may be used with a constant expression. In this workshop, the conversion function is explicit if and only if that constant expression evaluates to true. If we remove the explicit keyword, nothing happens if we do not use "explicit" in a function. However, if we use result=(bool)1 without "explicit", there is an error. This workshop is easier than the previous workshop because it likes we do not learn anything new, just use and practice the old one. However,  practicing helps me to understand the lectures. I think the important point of this workshop is the member operator. We can use operator members to interact with member data(like bool operator<(double power, const Ship& theShip) function and Ship& Ship::operator+=(Engine engine) function). The other one is conversion function that you can define a member function of a class, called a conversion function, that converts from the type of its class to another specified type

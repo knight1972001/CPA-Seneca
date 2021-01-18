@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\code\oop244\w6\lab\Project1\Basket.cpp" md5="c13689ff05cfdfeca944930a898fd7cc">
+    <snippet line="25">
+      <line line="22">            }</line>
+      <line line="23"/>
+      <line line="24">            this-&gt;m_fruits = new Fruit[this-&gt;m_cnt];</line>
+      <line line="25">            for (int i = 0; i &lt; this-&gt;m_cnt; i++) {</line>
+      <line line="26">                this-&gt;m_fruits[i] = fruit[i];</line>
+    </snippet>
+  </file>
+</snippets>

@@ -1,0 +1,15 @@
+421973	push 0x30
+421975	push 0x4b38b628
+421980	call 0x85464
+421985	mov edi, ecx
+421987	and dword ptr [ebp-0x4], 0x0
+421991	mov esi, dword ptr [0x4b3a4a7c]
+421997	push edx
+421998	test esi, esi
+422000	jz 0xa4025
+422006	mov ecx, esi
+422008	call dword ptr [0x4b3a81e0]
+422014	mov edx, edi
+422016	xor ecx, ecx
+422018	call esi
+422020	jmp 0xa40db

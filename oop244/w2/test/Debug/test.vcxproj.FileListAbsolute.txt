@@ -1,0 +1,2 @@
+C:\code\oop244\w2\test\Debug\test.exe
+C:\code\oop244\w2\test\Debug\test.pdb

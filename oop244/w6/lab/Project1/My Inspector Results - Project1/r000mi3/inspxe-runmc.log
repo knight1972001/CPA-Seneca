@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2020/07/07 23:52:31</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>log-end</type>
+  <arg>2020/07/07 23:52:32</arg>
+</msg>
+
+</log>
+
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2020/07/07 23:52:34</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>log-end</type>
+  <arg>2020/07/07 23:52:34</arg>
+</msg>
+
+</log>
+
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2020/07/07 23:52:35</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>log-end</type>
+  <arg>2020/07/07 23:52:35</arg>
+</msg>
+
+</log>
+

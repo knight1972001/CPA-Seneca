@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\CPA_Code\oop244\final_project\ms2\Project1\Parking.cpp" md5="eb5f98519cdfdae912b1110396e62358">
+    <snippet line="20">
+      <line line="17">                this-&gt;filename = nullptr;</line>
+      <line line="18">            }</line>
+      <line line="19">            this-&gt;filename = new char[strlen(filename)];</line>
+      <line line="20">            strcpy(this-&gt;filename, filename);</line>
+      <line line="21"/>
+    </snippet>
+    <snippet line="21">
+      <line line="18">            }</line>
+      <line line="19">            this-&gt;filename = new char[strlen(filename)];</line>
+      <line line="20">            strcpy(this-&gt;filename, filename);</line>
+      <line line="21"/>
+      <line line="22">            if (loadDataFile()) {</line>
+    </snippet>
+  </file>
+</snippets>

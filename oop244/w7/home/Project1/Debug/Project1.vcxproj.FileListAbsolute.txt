@@ -1,0 +1,2 @@
+C:\CPA_Code\oop244\w7\home\Project1\Debug\Project1.exe
+C:\CPA_Code\oop244\w7\home\Project1\Debug\Project1.pdb

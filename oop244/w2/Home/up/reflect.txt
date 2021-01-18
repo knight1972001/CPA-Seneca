@@ -1,0 +1,10 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NAA
+// Day:			    June 7th 2020
+// Workshop:       	2 (Part 2) Reflect.txt
+//==============================================
+
+Through this workshop, I know how to use dynamic memory for an array.  Moreover, I know that we can use the same name for many functions at least it has different types of paraments. The great thing that I can found is creating a dynamic array of characters through the static array of characters. The problem of a dynamic array of characters that we must delete it after use. Using the bool function is a great idea for a function that will return yes or no. Before, I use the int function that will return 1 for yes and 0 for no. But now I think bool is better than the old one I used. The unwrap function is a function that will delete the dynamic memory that was created. However, I think if we use this program in a "switch-case", at the exit of the program, I also insert the code that will delete the dynamic memory too. Before I usually create the const with #define, after this workshop, I know it is better if we create the const by "const type variable". 

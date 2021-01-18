@@ -1,0 +1,23 @@
+﻿  Cargo.cpp
+  Train.cpp
+C:\code\oop244\w3\home\Project1\Train.cpp(47,9): error C2248: 'sdds::Cargo::weight': cannot access private member declared in class 'sdds::Cargo'
+C:\code\oop244\w3\home\Project1\Cargo.h(22): message : see declaration of 'sdds::Cargo::weight'
+C:\code\oop244\w3\home\Project1\Cargo.h(20): message : see declaration of 'sdds::Cargo'
+C:\code\oop244\w3\home\Project1\Train.cpp(47,22): error C2248: 'sdds::Cargo::weight': cannot access private member declared in class 'sdds::Cargo'
+C:\code\oop244\w3\home\Project1\Cargo.h(22): message : see declaration of 'sdds::Cargo::weight'
+C:\code\oop244\w3\home\Project1\Cargo.h(20): message : see declaration of 'sdds::Cargo'
+C:\code\oop244\w3\home\Project1\Train.cpp(48,16): error C2248: 'sdds::Cargo::cargoName': cannot access private member declared in class 'sdds::Cargo'
+C:\code\oop244\w3\home\Project1\Cargo.h(21): message : see declaration of 'sdds::Cargo::cargoName'
+C:\code\oop244\w3\home\Project1\Cargo.h(20): message : see declaration of 'sdds::Cargo'
+C:\code\oop244\w3\home\Project1\Train.cpp(48,34): error C2248: 'sdds::Cargo::cargoName': cannot access private member declared in class 'sdds::Cargo'
+C:\code\oop244\w3\home\Project1\Cargo.h(21): message : see declaration of 'sdds::Cargo::cargoName'
+C:\code\oop244\w3\home\Project1\Cargo.h(20): message : see declaration of 'sdds::Cargo'
+C:\code\oop244\w3\home\Project1\Train.cpp(69,32): error C2248: 'sdds::Cargo::cargoName': cannot access private member declared in class 'sdds::Cargo'
+C:\code\oop244\w3\home\Project1\Cargo.h(21): message : see declaration of 'sdds::Cargo::cargoName'
+C:\code\oop244\w3\home\Project1\Cargo.h(20): message : see declaration of 'sdds::Cargo'
+C:\code\oop244\w3\home\Project1\Train.cpp(70,33): error C2248: 'sdds::Cargo::weight': cannot access private member declared in class 'sdds::Cargo'
+C:\code\oop244\w3\home\Project1\Cargo.h(22): message : see declaration of 'sdds::Cargo::weight'
+C:\code\oop244\w3\home\Project1\Cargo.h(20): message : see declaration of 'sdds::Cargo'
+  Generating Code...
+C:\code\oop244\w3\home\Project1\Cargo.cpp(21): error C4716: 'sdds::Cargo::getDesc': must return a value
+C:\code\oop244\w3\home\Project1\Cargo.cpp(25): error C4716: 'sdds::Cargo::getWeight': must return a value

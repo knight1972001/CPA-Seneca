@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2020/07/28 03:55:42</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\CPA_Code\oop244\final_project\ms2\Project1\My Inspector Results - Project1\r002mi3\r002mi3.inspxe</arg>
+</msg>
+<msg id="4" tool="mc">
+  <type>EXEC_OF_INTEREST</type>
+  <arg>c:\cpa_code\oop244\final_project\ms2\project1\debug\project1.exe</arg>
+  <arg>12384</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:43 2020</timestamp>
+</msg>
+<msg id="5" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\cpa_code\oop244\final_project\ms2\project1\debug\project1.exe</arg>
+  <arg>0x1c0000</arg>
+  <arg>0x1effff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:43 2020</timestamp>
+</msg>
+<msg id="6" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel32.dll</arg>
+  <arg>0x76b60000</arg>
+  <arg>0x76c4ffff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:43 2020</timestamp>
+</msg>
+<msg id="7" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernelbase.dll</arg>
+  <arg>0x779e0000</arg>
+  <arg>0x77bf2fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:43 2020</timestamp>
+</msg>
+<msg id="8" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ntdll.dll</arg>
+  <arg>0x77c10000</arg>
+  <arg>0x77db1fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:43 2020</timestamp>
+</msg>
+<msg id="9" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\program files\norton security\nortondata\22.20.2.57\definitions\bashdefs\20200721.001\umengx86.dll</arg>
+  <arg>0x61ee0000</arg>
+  <arg>0x61f47fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:43 2020</timestamp>
+</msg>
+<msg id="10" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcp140d.dll</arg>
+  <arg>0x79650000</arg>
+  <arg>0x79705fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:44 2020</timestamp>
+</msg>
+<msg id="11" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\vcruntime140d.dll</arg>
+  <arg>0x794b0000</arg>
+  <arg>0x794ccfff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:44 2020</timestamp>
+</msg>
+<msg id="12" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\ucrtbased.dll</arg>
+  <arg>0x794d0000</arg>
+  <arg>0x79644fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:44 2020</timestamp>
+</msg>
+<msg id="13" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10328,3612,2932,6976,1872</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>118444,908,1370,442,498</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:46 2020</timestamp>
+</msg>
+<msg id="14" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10328,3612,2932,6976,1872</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>0,0,0,0,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:47 2020</timestamp>
+</msg>
+<msg id="15" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10328,3612,2932,6976,1872</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>0,0,0,0,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:48 2020</timestamp>
+</msg>
+<msg id="16" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10328,3612,2932,6976,1872</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>4763,0,0,0,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:49 2020</timestamp>
+</msg>
+<msg id="17" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10328,3612,2932,6976,1872</arg>
+  <arg>1,1,1,1,1</arg>
+  <arg>12096,0,0,0,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:50 2020</timestamp>
+</msg>
+<msg id="18" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\kernel.appcore.dll</arg>
+  <arg>0x750d0000</arg>
+  <arg>0x750defff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:51 2020</timestamp>
+</msg>
+<msg id="19" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\msvcrt.dll</arg>
+  <arg>0x76c50000</arg>
+  <arg>0x76d0efff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:51 2020</timestamp>
+</msg>
+<msg id="20" tool="mc">
+  <type>MODULE_LOAD</type>
+  <arg>c:\windows\syswow64\rpcrt4.dll</arg>
+  <arg>0x777d0000</arg>
+  <arg>0x77889fff</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:51 2020</timestamp>
+</msg>
+<msg id="21" tool="mc">
+  <type>HEARTBEAT</type>
+  <arg>10328,3612,2932,6976,1872</arg>
+  <arg>0,1,1,1,1</arg>
+  <arg>7250,581,310,0,30</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:51 2020</timestamp>
+</msg>
+<msg id="22" tool="mc">
+  <type>PROCESS_COMPLETE</type>
+  <arg>c:\cpa_code\oop244\final_project\ms2\project1\debug\project1.exe</arg>
+  <arg>0</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:52 2020</timestamp>
+</msg>
+<msg id="23" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\CPA_Code\oop244\final_project\ms2\Project1\Debug\Project1.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:52 2020</timestamp>
+</msg>
+<msg id="24" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\kernel32.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:52 2020</timestamp>
+</msg>
+<msg id="25" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\KernelBase.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:52 2020</timestamp>
+</msg>
+<msg id="26" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\ntdll.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:52 2020</timestamp>
+</msg>
+<msg id="27" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Program Files\Norton Security\NortonData\22.20.2.57\Definitions\BASHDefs\20200721.001\UMEngx86.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:52 2020</timestamp>
+</msg>
+<msg id="28" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\msvcp140d.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:52 2020</timestamp>
+</msg>
+<msg id="29" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\vcruntime140d.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:52 2020</timestamp>
+</msg>
+<msg id="30" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\ucrtbased.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:52 2020</timestamp>
+</msg>
+<msg id="31" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\kernel.appcore.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:52 2020</timestamp>
+</msg>
+<msg id="32" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\msvcrt.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:52 2020</timestamp>
+</msg>
+<msg id="33" tool="mc">
+  <type>MODULE_UNLOAD</type>
+  <arg>C:\Windows\SysWOW64\rpcrt4.dll</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:52 2020</timestamp>
+</msg>
+<msg id="34" tool="mc">
+  <type>ANALYSIS_COMPLETE</type>
+  <arg>c:\cpa_code\oop244\final_project\ms2\project1\debug\project1.exe</arg>
+  <severity>INFO</severity>
+  <timestamp>Tue Jul 28 03:55:52 2020</timestamp>
+</msg>
+<msg id="35" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>0</arg>
+</msg>
+<msg id="36" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\CPA_Code\oop244\final_project\ms2\Project1\My Inspector Results - Project1\r002mi3\r002mi3.inspxe</arg>
+</msg>
+<msg id="37" tool="runtool">
+  <type>collector-done</type>
+</msg>
+<msg id="38" tool="runtool">
+  <type>log-end</type>
+  <arg>2020/07/28 03:55:56</arg>
+</msg>
+
+</log>
+

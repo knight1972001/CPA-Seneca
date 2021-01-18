@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\CPA_Code\oop244\final_project\ms1\Project2\Menu.cpp" md5="d03d9bbb2622f8292741d24ce897c2b9">
+    <snippet line="70">
+      <line line="67">	Menu::Menu(const char* title, int indentt){</line>
+      <line line="68">		if (title != nullptr &amp;&amp; title[0] != '\0') {</line>
+      <line line="69">			this-&gt;title = new char[strlen(title) + 1];</line>
+      <line line="70">			strcpy(this-&gt;title, title);</line>
+      <line line="71">		}</line>
+    </snippet>
+  </file>
+</snippets>

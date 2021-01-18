@@ -1,0 +1,27 @@
+319344	mov edx, dword ptr [esp+0x4]
+319348	mov ecx, dword ptr [esp+0x8]
+319352	test edx, 0x3
+319358	jnz 0x4dfc0
+319360	mov eax, dword ptr [edx]
+319362	cmp al, byte ptr [ecx]
+319364	jnz 0x4dfb8
+319366	test al, al
+319368	jz 0x4dfb0
+319370	cmp ah, byte ptr [ecx+0x1]
+319373	jnz 0x4dfb8
+319375	test ah, ah
+319377	jz 0x4dfb0
+319379	shr eax, 0x10
+319382	cmp al, byte ptr [ecx+0x2]
+319385	jnz 0x4dfb8
+319387	test al, al
+319389	jz 0x4dfb0
+319391	cmp ah, byte ptr [ecx+0x3]
+319394	jnz 0x4dfb8
+319396	add ecx, 0x4
+319399	add edx, 0x4
+319402	test ah, ah
+319404	jnz 0x4df80
+319406	mov edi, edi
+319408	xor eax, eax
+319410	ret 

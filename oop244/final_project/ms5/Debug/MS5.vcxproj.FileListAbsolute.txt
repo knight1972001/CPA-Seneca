@@ -1,0 +1,2 @@
+C:\code\ms5\Debug\MS5.exe
+C:\code\ms5\Debug\MS5.pdb

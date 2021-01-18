@@ -1,0 +1,11 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NAA
+// Day:			July 18th 2020
+// Workshop:       	7 (Part 2)
+//==============================================
+Through this workshop, I was practiced Free Helper Function overload the insertion and extraction operators. With overload the insertion, I can have beautiful output when executing the program. Also, I have a chance to practice with inherit a derived class from a base class. There are many ways to pass the value to class members of the base class. However, I prefer to use this form child(value1, value2):base(value2)
+ex: Truck::Truck(const char* plate, int year, double capacity, const char* address):MotorVehicle(plate,year)
+It faster and I no need to assign it inside the constructor function. Moreover, I learned if we want to copy a new string to an existing variable, we need to clear it first (value[0]='\0') before we assign a new value. Aligning to the right, left and Sets the field width (sets(n)) helps us to have a beautiful and friendly output. Also, It helps us easier to read the output.

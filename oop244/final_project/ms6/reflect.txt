@@ -1,0 +1,9 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NAA
+// Day:			    Aug 8th 2020
+// Workshop:       	reflect
+//==============================================
+Through this milestone, I learn how to prepare each small part and then combine them together in MS6. Also, I learned how to import the CSV file and export them(It is necessary to save the data each time we run a program, the program will be useless if it cannot save anything after was run). Moreover, I learned how to execute input and output that has a friendly view. Before, I just know to create a menu as a Switch-case style. After this milestone, I also know to create a Menu as a Class(Menu also is an Object). This thing can easier modify and insert the new item or selection that users want to update in the future. I learned a lot after this milestone, not the simple code like before, now I know to insert the bool variable in a For-loop(before I only count them). I think this milestone is a complete program that I can use it in the future. Personally, I think this milestone is a little difficult, also this term is online so I just study through the internet(it makes me sleepy) so I think I cannot reach the result like last semester, I hope it will be fine in next semester.

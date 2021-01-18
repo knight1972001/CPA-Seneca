@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<snippets>
+  <file name="C:\CPA_Code\oop244\final_project\ms1\Project2\Menu.cpp" md5="3407060ec4abc60e05c925cd3e427c32">
+    <snippet line="76">
+      <line line="73">            }</line>
+      <line line="74"/>
+      <line line="75">            this-&gt;title = new char[strlen(title) + 1];</line>
+      <line line="76">            strcpy(this-&gt;title, title);</line>
+      <line line="77">            this-&gt;indentation = indentt;</line>
+    </snippet>
+  </file>
+</snippets>

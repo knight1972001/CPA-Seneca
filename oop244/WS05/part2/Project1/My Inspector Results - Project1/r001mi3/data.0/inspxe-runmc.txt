@@ -1,0 +1,31 @@
+
+=== Start: [2020/06/27 23:47:15] === 
+Analysis started...
+Result file: C:\code\oop244\WS05\part2\Project1\My Inspector Results - Project1\r001mi3\r001mi3.inspxe 
+Analysis started for c:\code\oop244\ws05\part2\project1\debug\project1.exe (pid = 16620) 
+Loaded module: c:\code\oop244\ws05\part2\project1\debug\project1.exe, address range [0xe70000-0xe94fff] 
+Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x760b0000-0x762c2fff] 
+Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x76f60000-0x7704ffff] 
+Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x77130000-0x772d1fff] 
+Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0x7a7e0000-0x7a895fff] 
+Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0x7a640000-0x7a7b4fff] 
+Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0x7a7c0000-0x7a7dcfff] 
+Loaded module: c:\windows\syswow64\kernel.appcore.dll, address range [0x74540000-0x7454efff] 
+Loaded module: c:\windows\syswow64\msvcrt.dll, address range [0x75e90000-0x75f4efff] 
+Loaded module: c:\windows\syswow64\rpcrt4.dll, address range [0x75bd0000-0x75c89fff] 
+Process c:\code\oop244\ws05\part2\project1\debug\project1.exe exited with code 0. Leak analysis starting. Please wait... 
+Unloaded module: C:\code\oop244\WS05\part2\Project1\Debug\Project1.exe 
+Unloaded module: C:\Windows\SysWOW64\KernelBase.dll 
+Unloaded module: C:\Windows\SysWOW64\kernel32.dll 
+Unloaded module: C:\Windows\SysWOW64\ntdll.dll 
+Unloaded module: C:\Windows\SysWOW64\msvcp140d.dll 
+Unloaded module: C:\Windows\SysWOW64\ucrtbased.dll 
+Unloaded module: C:\Windows\SysWOW64\vcruntime140d.dll 
+Unloaded module: C:\Windows\SysWOW64\kernel.appcore.dll 
+Unloaded module: C:\Windows\SysWOW64\msvcrt.dll 
+Unloaded module: C:\Windows\SysWOW64\rpcrt4.dll 
+Completed analysis for c:\code\oop244\ws05\part2\project1\debug\project1.exe 
+Application exit code: 0 
+Result file: C:\code\oop244\WS05\part2\Project1\My Inspector Results - Project1\r001mi3\r001mi3.inspxe 
+Analysis completed
+=== End: [2020/06/27 23:47:24] === 

@@ -1,0 +1,11 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NAA
+// Day:			    June 19th 2020
+// Workshop:       	4 (Part 2) (reflect)
+//==============================================
+
+At bool fight(Saiyan& other) function, we need to remove the "const" because "const" will not let us change the value of the member. At function Fight, we need to change the value of Saiyan by the level of them. Removing "const" will accept the new value for m_power of Saiyan. Through this workshop, I learned how to use the constructor and destructor in C++. To be safer, I set all the members to the safe empty state before I set the value for them. There are many ways to create a custom constructor (or constructor overloading) and it will depend on what type of parament you pass it to the function. Moreover, I learned how to have a beautify the output by printed on fields of size 10, aligned to the right(as a request of the workshop). Only the first output field will follow the value as we set, the following value will not show as the aligned as we set. For example: "				cout << right << setw(10) << "Super: " << "yes" << endl; "
+only the "Super: " will follow the aligned to the right a printed on fields of size 10. and Yes will show by the next character. If I write the code "				cout << right << setw(10) << "Super: Yes" << endl; ", my output will be not correct with the expect output.

@@ -1,0 +1,2 @@
+C:\code\ms6\Debug\MS6.exe
+C:\code\ms6\Debug\MS6.pdb

@@ -1,0 +1,10 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NAA
+// Day:			    June 14th 2020
+// Workshop:       	3 (Part 2)
+//==============================================
+
+Through this workshop, I learned how to create Constructors for a class. It is good for the program because every member will be set to an empty safe state. So I will not worry about trash values anymore. Moreover, I recognize if I want to precision a double number, I have to set and unset after the display to do not affect to other values. The most thing that difficult in this workshop is creating a code through a main.cpp. If through only output, I don't think it is a big problem, but through the main.cpp file (cannot modify the file), it makes me have to think about what happens inside the main to get exactly the output. At the loadCargo, the main file does not mention about unload cargo function. So it means it will load more cargo. But class cargo is a dynamic array. So we cannot modify the number of elements in the array after we created. We have to delete the old one first, then create the new dynamic array with more elements. I showed it in my code, but I will explain the way I did it brief. I will create a new statics array(even it will take more space of memory, but there is no way). then I will transfer the cargo to the statics array. Actually I have a better idea is to transfer it to the temp dynamic arrays with the number of elements of them. Then delete the main array, create the new array with the elements was increased, then copy them from the temp array. I will try it later because I scare the memory leak when I submit the code through Matrix. I am really obsessed with it.

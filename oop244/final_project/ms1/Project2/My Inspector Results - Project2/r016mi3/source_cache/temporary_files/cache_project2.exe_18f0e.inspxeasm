@@ -1,0 +1,22 @@
+102112	push ebp
+102113	mov ebp, esp
+102115	sub esp, 0xc
+102118	call 0x11654
+102123	mov dword ptr [ebp-0x4], eax
+102126	call 0x11541
+102131	mov eax, dword ptr [eax]
+102133	mov dword ptr [ebp-0x8], eax
+102136	call 0x11267
+102141	mov ecx, dword ptr [eax]
+102143	mov dword ptr [ebp-0xc], ecx
+102146	mov edx, dword ptr [ebp-0x4]
+102149	push edx
+102150	mov eax, dword ptr [ebp-0x8]
+102153	push eax
+102154	mov ecx, dword ptr [ebp-0xc]
+102157	push ecx
+102158	call 0x114ec
+102163	add esp, 0xc
+102166	mov esp, ebp
+102168	pop ebp
+102169	ret 

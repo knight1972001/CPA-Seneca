@@ -1,0 +1,9 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NAA
+// Day:			    July 22th 2020
+// Workshop:       	8 (Part 1)
+//==============================================
+The constant variable in a private member of Employee class cannot change in any public function. So it cannot be initialized in the body of a constructor like regular attributes. So we have to initialize by the initializer list (initializes X::const_varible to the value "x"). We need to create a destructor function to free up the memory (dynamic memory). It should have a destructor function just in case we create any dynamic memory when Declaring Objects. In this workshop, we no need to overload << operator for each class on the hierarchy because this function operator will return to display function. However, display function is a pure virtual function, so it will direct to the hierarchy, and we no need to overload << operator for each class on the hierarchy. Through this workshop, I learned how to use protected properties and (pure) virtual function, practice friend helper function. Moreover, I recognize destructor function is very important for each class. It helps our program does not have any memory leaks during run time. 
