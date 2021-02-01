@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: C:\CPA_Code\OOP345\W2\Project1\My Inspector Results - Project1\r000mi3\r000mi3.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis started for c:\cpa_code\oop345\w2\project1\debug\project1.exe (pid = 12440) </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\cpa_code\oop345\w2\project1\debug\project1.exe, address range [0xc00000-0xc34fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel32.dll, address range [0x76180000-0x7626ffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernelbase.dll, address range [0x77760000-0x77973fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ntdll.dll, address range [0x77990000-0x77b32fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\program files\norton security\nortondata\22.20.5.40\definitions\bashdefs\20210119.001\umengx86.dll, address range [0x7b7f0000-0x7b857fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcp140d.dll, address range [0x7a780000-0x7a837fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ucrtbased.dll, address range [0x7a840000-0x7a9b4fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\vcruntime140d.dll, address range [0x7a760000-0x7a77cfff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\kernel.appcore.dll, address range [0x75320000-0x7532efff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcrt.dll, address range [0x76600000-0x766befff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\rpcrt4.dll, address range [0x75a30000-0x75aeffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\user32.dll, address range [0x75af0000-0x75c85fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\win32u.dll, address range [0x75910000-0x75927fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\gdi32.dll, address range [0x766e0000-0x76702fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\gdi32full.dll, address range [0x76710000-0x767ebfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msvcp_win.dll, address range [0x75890000-0x7590afff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ucrtbase.dll, address range [0x763b0000-0x764cffff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\imm32.dll, address range [0x760a0000-0x760c4fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\textshaping.dll, address range [0x50120000-0x501b3fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\uxtheme.dll, address range [0x6b6e0000-0x6b753fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\combase.dll, address range [0x75c90000-0x75f11fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\msctf.dll, address range [0x762d0000-0x763a3fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\oleaut32.dll, address range [0x764d0000-0x76565fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\sechost.dll, address range [0x76d80000-0x76df5fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\bcryptprimitives.dll, address range [0x76f80000-0x76fdcfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\textinputframework.dll, address range [0x61b10000-0x61bc9fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\coremessaging.dll, address range [0x62ad0000-0x62b6afff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\coreuicomponents.dll, address range [0x62850000-0x62acdfff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ws2_32.dll, address range [0x76cc0000-0x76d22fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ntmarta.dll, address range [0x74210000-0x74238fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\shcore.dll, address range [0x76e00000-0x76e86fff], minimal analysis </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\wintypes.dll, address range [0x6d110000-0x6d1eafff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\advapi32.dll, address range [0x76c40000-0x76cb9fff] </message>
+ <nop/>
+ <message severity="info">Loaded module: c:\windows\syswow64\ole32.dll, address range [0x75f40000-0x76022fff] </message>
+ <nop/>
+ <message severity="warning">Detected fatal exception in the application. See result for details. </message>
+ <nop/>
+ <message severity="info">Application exit code: 3 </message>
+ <nop/>
+ <message severity="info">Result file: C:\CPA_Code\OOP345\W2\Project1\My Inspector Results - Project1\r000mi3\r000mi3.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis completed</message>
+ <nop/>
+</feedback>

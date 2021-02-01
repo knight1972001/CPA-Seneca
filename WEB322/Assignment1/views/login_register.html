@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/login_register.css">
+    <script src="/data.js"></script>
+    <script src="/loginScript.js"></script>
+    <title>MeuBakery :: Login</title>
+</head>
+<body onload=all()>
+    <div id="header">
+        <a href="/"><img src="/images/logo.png" width="200px"></a>
+        <ul id="left_navbar">
+            <li><a href="/">Home</a></li>
+            <li><a href="/menu">On the menu</a></li>
+        </ul>
+        <ul id="right_navbar">
+            <li><a href="/login_register"><button id="register">Register</button></a></li>
+            <li><a href="/login_register"><button>Login</button></a></li>
+        </ul>
+    </div>
+
+    
+    <div id="selection">
+        <label id="Register">Register</label>
+        <label id="Login">Login</label>
+    </div>
+
+    <div id="form">
+        <form>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd"><br>
+            <input id='submitButton' type="button" onclick='alert("Registerd!")' value="Submit!">
+        </form>
+    </div>
+
+    <footer>
+        <table>
+            <tr>
+                <th>NAVIGATE</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td><a href="/">Home</a></td>
+                <td><a href="/redeem">Redeem</a></td>
+            </tr>
+            <tr>
+                <td><a href="/menu">On the Menu</a></td>
+            </tr>
+            <tr>
+                <td><a href="/about">About us</a></td>
+            </tr>
+        </table>
+
+        <div id="contact">
+            <p style='font-weight: bold;'>CONTACT US</p>
+            <p>Tel #: <a href="tel:6475626810">(437)-228-1393</a></p>
+            <p>Mail to: <a href="mailto:lnguyen97@myseneca.ca">lnguyen97@myseneca.ca</a></p>
+            <p>FOLLOW US</p>
+            <a href="http://www.facebook.com/"><img src="/images/facebook.png" width="15%"></a>
+            <a href="http://www.instagram.com/"><img src="/images/instagram.png" width="15%"></a>
+        </div>
+        <p id="copyrighted">Copyright © Winter 2021, Long Nguyen, WEB322NCC</p>
+    </footer>
+</body>
+</html>

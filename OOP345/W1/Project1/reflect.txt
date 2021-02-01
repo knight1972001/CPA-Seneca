@@ -1,0 +1,13 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NEE
+// Day:			    Jan 20th 2020
+// Workshop:       	1
+//==============================================
+
+through this workshop, I learned how to use a translation unit for my code. For example, W1p1.cpp included "event.h" 2 times. So in "event.h", I have to use #ifndef statements to avoid conflict for a program. Moreover, I learned between Internal Linkage and External Linkage.
+- For Internal Linkage, we can easily realize it by the "static" keyword. It refers to an entity that is invisible outside its own translation unit, but visible to other scopes within its translation unit
+- For External Linkage, It also easily realized by the "extern" keyword, and it refers to an entity that is declared in a different scope within another translation unit(like g_sysClock in WS).
+Event class is not too difficult cause I had learned about class in OOP244. However, I am happy because I can practice with "setfill" and "setw" in this WS. The only thing I scare is dynamic memory, so I decide to not use it for the "description" variable(which is not required in this WS). 

@@ -1,0 +1,104 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	DBS311A
+// Day:			    Jan 20th 2020
+// Workshop:       	1
+//==============================================
+
+SELECT TO_CHAR(to_date('01/20/21', 'MM/DD/YY')+2, 'fmMonth ddth "of year" YYYY') AS "After Tomorrow" FROM DUAL;
+
+After Tomorrow             
+---------------------------
+January 22nd of year 2021
+
+
+
+SELECT last_name, first_name, salary, CAST((salary*1.07) AS int) AS "Good Salary", ((salary*1.07-salary)*12) AS "Annual Pay Increase" FROM employee;
+
+LAST_NAME                 FIRST_NAME               SALARY Good Salary Annual Pay Increase
+------------------------- -------------------- ---------- ----------- -------------------
+King                      Steven                    24000       25680               20160
+Kochhar                   Neena                     17000       18190               14280
+De Haan                   Lex                       17000       18190               14280
+Hunold                    Alexander                  9000        9630                7560
+Ernst                     Bruce                      6000        6420                5040
+Lorentz                   Diana                      4200        4494                3528
+Mourgos                   Kevin                      5800        6206                4872
+Rajs                      Trenna                     3500        3745                2940
+Davies                    Curtis                     3100        3317                2604
+Matos                     Randall                    2600        2782                2184
+Vargas                    Peter                      2500        2675                2100
+
+LAST_NAME                 FIRST_NAME               SALARY Good Salary Annual Pay Increase
+------------------------- -------------------- ---------- ----------- -------------------
+Zlotkey                   Eleni                     10500       11235                8820
+Abel                      Ellen                     11000       11770                9240
+Taylor                    Jonathon                   8600        9202                7224
+Grant                     Kimberely                  7000        7490                5880
+Whalen                    Jennifer                   4400        4708                3696
+Hartstein                 Michael                   13000       13910               10920
+Fay                       Pat                        6000        6420                5040
+Higgins                   Shelley                   12000       12840               10080
+Gietz                     William                    8300        8881                6972
+
+20 rows selected. 
+
+
+
+SELECT (last_name||', '||first_name||' is '|| job_id) AS "Person and Job" FROM employee WHERE last_name LIKE '%s' AND (first_name LIKE 'C%' OR first_name LIKE 'K%') ORDER BY last_name;
+
+Person and Job                                               
+-------------------------------------------------------------
+Davies, Curtis is ST_CLERK
+Mourgos, Kevin is ST_MAN
+
+
+
+
+SELECT last_name, salary, to_char(hire_date, 'DD-Mon-YYYY') AS "Hire Date", ROUND(months_between(sysdate, hire_date)/12) AS "Years Worked" FROM employee WHERE hire_date < to_date('01/01/92', 'MM/DD/RR') AND salary > 10000 ORDER BY salary DESC, "Years Worked" DESC;
+
+LAST_NAME                     SALARY Hire Date   Years Worked
+------------------------- ---------- ----------- ------------
+King                           24000 17-Jun-1987           34
+Kochhar                        17000 21-Sep-1989           31
+
+
+
+
+SELECT city, postal_code, COALESCE(state_province, 'Unknown Province') AS "State Province" FROM location WHERE city LIKE 'S%' and LENGTH(city) >= 8;
+
+CITY                           POSTAL_CODE  State Province           
+------------------------------ ------------ -------------------------
+Sao Paulo                      01307-002    Sao Paulo                
+Singapore                      540198       Unknown Province         
+South Brunswick                50090        New Jersey               
+South San Francisco            99236        California               
+Southlake                      26192        Texas                    
+Stretford                      09629850293  Manchester               
+
+6 rows selected. 
+
+
+
+
+
+
+
+SELECT last_name, hire_date, to_char(next_day(hire_date + 365, 'Tuesday'), 'fmDAY, Month" the "fmDdspth" of the year" YYYY') AS "Review Day" FROM employee WHERE hire_date > to_date('01/01/97', 'MM/DD/RR');
+
+LAST_NAME                 HIRE_DAT Review Day                                              
+------------------------- -------- --------------------------------------------------------
+Lorentz                   99-02-07 TUESDAY, February the Eighth of the year 2000           
+Mourgos                   99-11-16 TUESDAY, November the Twenty-First of the year 2000     
+Davies                    97-01-29 TUESDAY, February the Third of the year 1998            
+Matos                     98-03-15 TUESDAY, March the Sixteenth of the year 1999           
+Vargas                    98-07-09 TUESDAY, July the Thirteenth of the year 1999           
+Zlotkey                   00-01-29 TUESDAY, January the Thirtieth of the year 2001         
+Taylor                    98-03-24 TUESDAY, March the Thirtieth of the year 1999           
+Grant                     99-05-24 TUESDAY, May the Thirtieth of the year 2000             
+Fay                       97-08-17 TUESDAY, August the Eighteenth of the year 1998         
+
+9 rows selected. 
+

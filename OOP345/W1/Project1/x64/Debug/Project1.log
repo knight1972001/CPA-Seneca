@@ -1,0 +1,4 @@
+﻿  event.cpp
+C:\CPA_Code\OOP345\W1\Project1\event.cpp(8,14): error C2371: 'g_sysClock': redefinition; different basic types
+C:\CPA_Code\OOP345\W1\Project1\event.h(4): message : see declaration of 'g_sysClock'
+C:\CPA_Code\OOP345\W1\Project1\event.cpp(51,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data

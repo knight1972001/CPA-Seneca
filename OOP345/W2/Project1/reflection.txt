@@ -1,0 +1,10 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NEE
+// Day:			Jan 27th 2020
+// Workshop:       	2
+//==============================================
+
+Through this workshop, I learned how to use Copy Constructor, copy assignment, move constructor and Move assignment. Moreover, I know how to use the "Chrono" library to calculate duration time which is very useful to know performance measurement. I also have a chance to practice file I/O operators and dynamic memory as well. I use copy semantics and move semantics and see the big difference between copy and move operations. The reason why significant time difference because moving operation allows to steal resources instead of creating new ones like copy operation. Copy Semantics requires us to make a complete copy of the string, including assigning another array to dynamic memory and copying *strArr, which is very expensive while moving Semantics just requires us to move the value of the pointer itself to a new object without duplicating a string's contents. I just have a problem while using dynamic memory, it takes me little time to fix memory leak like before. But after all, I finished it
