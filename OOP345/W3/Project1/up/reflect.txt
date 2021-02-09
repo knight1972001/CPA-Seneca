@@ -1,0 +1,14 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NEE
+// Day:			Feb 5th 2020
+// Workshop:       	3
+//==============================================
+
+Through this workshop, I learned how to use Template and "Templates and Inheritance" class. Using the template saves a lot of time for the programmer to any action repeat with any type name. So far, I just have a problem with the "Templates and Inheritance" Class. It is a little confusing. However, by helping the professor, I finished my workshop. 
+The function "PairSummable(const K& key, const V& value = initial)", `= initial` in the prototype means this function can receive only 1 parameter (it is "key"). By receiving "key" only, the object can be created by constructor without any error, and if the function does not receive any "value" parameter, it will default is "initial" value. 
+The reason for specializing the `operator+=()` member function means if this function receives 2 parameters that have a type name is "string", it will do the different way from other types of names.
+We don't need to specialize the initial value for the summation because other values can be sum likes double = int + double, int = int + int, etc. Only String + int --> error.
+The reason for defining the class variable outside the class definition because It is a rule of this language. Actually, static variables have different end of life from class. It means it is not actually a part of the class. That why we need to define them outside the class.

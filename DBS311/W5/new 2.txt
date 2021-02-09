@@ -1,0 +1,18 @@
+-- 1 Davies job_id
+SELECT last_name, job_id FROM employee WHERE job_id = (SELECT job_id FROM employee WHERE last_name = 'Davies') AND last_name <> 'Davies';
+
+-- 2 hire date
+SELECT last_name, job_id, TO_CHAR(hire_date, 'fmMonth ddth "of year" YYYY') AS "Date" FROM employee WHERE hire_date > (SELECT hire_date FROM employee WHERE last_name = 'Grant') ORDER BY "Date" ASC;
+
+-- 3. City, province, postal, code, country.
+SELECT city, COALESCE(state_province, 'Unknown') AS "Province", postal_code AS "PCode", country_name AS "CC" FROM location, country WHERE location.country_id = country.country_id AND country.country_name LIKE 'I%' ORDER BY city ASC;
+
+-- 4. sales
+SELECT last_name, job_id, salary FROM employee WHERE salary < (SELECT AVG(salary) FROM employee WHERE department_id = (SELECT department_id FROM department WHERE department_name = 'Sales')) ORDER BY salary DESC, job_id;
+
+-- 5.ITDepartment
+SELECT last_name, job_id, salary FROM employee WHERE salary IN (SELECT salary FROM employee WHERE department_id = (SELECT department_id FROM department WHERE department_name = 'IT')) ORDER BY salary ASC, last_name;
+
+--6 lowest
+SELECT department_id,min(salary) FROM employee GROUP BY department_id;
+SELECT last_name, salary, department_id FROM employee WHERE salary < ANY (SELECT min(salary) FROM employee GROUP BY department_id);
