@@ -1,0 +1,27 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NEE
+// Day:			Feb 20th 2020
+// Workshop:       	5
+//==============================================
+
+- A functor(know as Function Object) is an object that can be used as a function by overloading (). 
+Lambda Expression allows you to create an anonymous function to use as parameters of another function.
+The benefit of using Functor instead of other functions is the implementation of functions, and these functions can store state (in the properties of the class), we can pass the object to another function including properties. properties are needed through this object and the function pointer property is not present.
+Lambda Expression is used when we need a function that will be used a few times, no need to write a new class or struct for something trivial.
+
+- To write the SpellChecker constructor without exceptions, we need to know which errors we might have, like:
+If(!file){
+//If the file doesn't exist, do...
+}
+For me, I like the constructor includes exceptions. It can handle any error and help the program run without a crash. Another way needs to care and know any error might happen to avoid it during runtime.
+
+- To avoid duplicate the logic loading data from a file. We can write a function that receives parameters as addresses. This function will be called in constructor.
+
+void read(vector<std::string>& vect, std::string& text);
+
+then substr by "," and push_back it to the vector. After all, in a constructor, we write the for loop(from 0 to the number of private members) and store it.
+
+- I think the default constructor is necessary and should not remove it. Sometimes, we want to create a new object but we might not want to add the value through the custom constructor. Now the default constructor is very important to set all elements to Safe Empty State, and we can use it later.

@@ -1,0 +1,196 @@
+-- 1 DEPARTMENT_ID list
+SELECT department_id FROM department
+UNION
+SELECT department_id FROM employee WHERE job_id <> 'ST_CLERK'  AND department_id IS NOT NULL;
+
+DEPARTMENT_ID
+-------------
+           10
+           20
+           50
+           60
+           80
+           90
+          110
+          190
+
+8 rows selected. 
+
+-- 2 employee, job ID
+SELECT employee_id, job_id, SUBSTR(salary,1,20) AS "SALARY" FROM employee
+        UNION
+SELECT employee_id, job_id, COALESCE(TO_CHAR(null), '-1')  FROM job_history;
+
+EMPLOYEE_ID JOB_ID     SALARY              
+----------- ---------- --------------------
+        100 AD_PRES    24000               
+        101 AC_ACCOUNT -1                  
+        101 AC_MGR     -1                  
+        101 AD_VP      17000               
+        102 AD_VP      17000               
+        102 IT_PROG    -1                  
+        103 IT_PROG    9000                
+        104 IT_PROG    6000                
+        107 IT_PROG    4200                
+        114 ST_CLERK   -1                  
+        122 ST_CLERK   -1                  
+        124 ST_MAN     5800                
+        141 ST_CLERK   3500                
+        142 ST_CLERK   3100                
+        143 ST_CLERK   2600                
+        144 ST_CLERK   2500                
+        149 SA_MAN     10500               
+        174 SA_REP     11000               
+        176 SA_MAN     -1                  
+        176 SA_REP     -1                  
+        176 SA_REP     8600                
+        178 SA_REP     7000                
+        200 AC_ACCOUNT -1                  
+        200 AD_ASST    -1                  
+        200 AD_ASST    4400                
+        201 MK_MAN     13000               
+        201 MK_REP     -1                  
+        202 MK_REP     6000                
+        205 AC_MGR     12000               
+        206 AC_ACCOUNT 8300                
+
+30 rows selected. 
+
+
+-- 3 WAREHOUSE
+SELECT city FROM locations WHERE location_id IN 
+(
+    SELECT location_id FROM locations 
+    MINUS
+    SELECT location_id FROM warehouses
+);
+
+CITY                                              
+--------------------------------------------------
+Roma
+Venice
+Tokyo
+Hiroshima
+Whitehorse
+Singapore
+London
+Oxford
+Stretford
+Munich
+Sao Paulo
+Geneva
+Bern
+Utrecht
+
+14 rows selected. 
+
+-- 4 categoryID ANY
+SELECT
+   prod_cat.category_id,
+   prod_cat.category_name,
+   COUNT(p.category_id) AS "COUNT" 
+FROM
+   product_categories prod_cat 
+   JOIN
+      products p 
+      ON prod_cat.category_id = p.category_id 
+WHERE
+   prod_cat.category_id = 1 
+   OR prod_cat.category_id = 2 
+   OR prod_cat.category_id = 5 
+GROUP BY
+   prod_cat.category_id,
+   prod_cat.category_name 
+ORDER BY
+   CASE
+      WHEN
+         category_id = '5' 
+      THEN
+         0 
+      WHEN
+         category_id = '1' 
+      THEN
+         1 
+      WHEN
+         category_id = '2' 
+      THEN
+         2 
+   END
+;
+
+CATEGORY_ID CATEGORY_NAME                                                                                                                                                                                                                                                        COUNT
+----------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------
+          5 Storage                                                                                                                                                                                                                                                                108
+          1 CPU                                                                                                                                                                                                                                                                     70
+          2 Video Card                                                                                                                                                                                                                                                              50
+
+-- 5 prod_id greather
+SELECT product_id FROM inventories WHERE quantity > 250 
+UNION
+SELECT product_id FROM inventories WHERE quantity > 250;
+
+PRODUCT_ID
+----------
+       220
+       221
+       222
+       223
+       269
+       270
+       271
+       272
+       273
+       276
+       277
+       278
+       281
+       283
+       284
+       285
+       286
+
+17 rows selected. 
+
+-- 6 no STATE
+SELECT location_id AS "Loc#", city, COALESCE(state, 'No State') AS "State", COALESCE(TO_CHAR(null), ' ') AS "WareHouse" FROM locations
+UNION
+SELECT location_id, COALESCE(TO_CHAR(null), ' '), COALESCE(TO_CHAR(null), ' '), warehouse_name FROM warehouses
+ORDER BY "Loc#", "WareHouse";
+
+      Loc# CITY                                               State                                              WareHouse                                                                                                                                                                                                                                                      
+---------- -------------------------------------------------- -------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+         1 Roma                                               No State                                                                                                                                                                                                                                                                                                          
+         2 Venice                                             No State                                                                                                                                                                                                                                                                                                          
+         3 Tokyo                                              Tokyo Prefecture                                                                                                                                                                                                                                                                                                  
+         4 Hiroshima                                          No State                                                                                                                                                                                                                                                                                                          
+         5 Southlake                                          Texas                                                                                                                                                                                                                                                                                                             
+         5                                                                                                       Southlake, Texas                                                                                                                                                                                                                                               
+         6 South San Francisco                                California                                                                                                                                                                                                                                                                                                        
+         6                                                                                                       San Francisco                                                                                                                                                                                                                                                  
+         7 South Brunswick                                    New Jersey                                                                                                                                                                                                                                                                                                        
+         7                                                                                                       New Jersey                                                                                                                                                                                                                                                     
+         8 Seattle                                            Washington                                                                                                                                                                                                                                                                                                        
+         8                                                                                                       Seattle, Washington                                                                                                                                                                                                                                            
+         9 Toronto                                            Ontario                                                                                                                                                                                                                                                                                                           
+         9                                                                                                       Toronto                                                                                                                                                                                                                                                        
+        10 Whitehorse                                         Yukon                                                                                                                                                                                                                                                                                                             
+        11 Beijing                                            No State                                                                                                                                                                                                                                                                                                          
+        11                                                                                                       Beijing                                                                                                                                                                                                                                                        
+        12 Bombay                                             Maharashtra                                                                                                                                                                                                                                                                                                       
+        12                                                                                                       Bombay                                                                                                                                                                                                                                                         
+        13 Sydney                                             New South Wales                                                                                                                                                                                                                                                                                                   
+        13                                                                                                       Sydney                                                                                                                                                                                                                                                         
+        14 Singapore                                          No State                                                                                                                                                                                                                                                                                                          
+        15 London                                             No State                                                                                                                                                                                                                                                                                                          
+        16 Oxford                                             Oxford                                                                                                                                                                                                                                                                                                            
+        17 Stretford                                          Manchester                                                                                                                                                                                                                                                                                                        
+        18 Munich                                             Bavaria                                                                                                                                                                                                                                                                                                           
+        19 Sao Paulo                                          Sao Paulo                                                                                                                                                                                                                                                                                                         
+        20 Geneva                                             Geneve                                                                                                                                                                                                                                                                                                            
+        21 Bern                                               BE                                                                                                                                                                                                                                                                                                                
+        22 Utrecht                                            Utrecht                                                                                                                                                                                                                                                                                                           
+        23 Mexico City                                        Distrito Federal,                                                                                                                                                                                                                                                                                                 
+        23                                                                                                       Mexico City                                                                                                                                                                                                                                                    
+
+32 rows selected. 
+
