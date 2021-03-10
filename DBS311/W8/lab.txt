@@ -1,0 +1,53 @@
+--1
+create or replace PROCEDURE Even_Odd(v_value1 NUMBER)
+IS
+  division NUMBER := 0;
+BEGIN
+  division := MOD(v_value1, 2);
+  IF division = 0
+  THEN DBMS_OUTPUT.PUT_LINE ('The number is even');
+  ELSE
+        DBMS_OUTPUT.PUT_LINE ('The number is odd');
+        END IF;
+  
+END Even_Odd;
+
+--2
+CREATE OR REPLACE PROCEDURE FIND_EMPLOYEE(p_empid NUMBER)
+IS
+    firstName employees.first_name%TYPE;
+    lastName employees.last_name%TYPE;
+    email employees.email%TYPE;
+    phone employees.phone%TYPE;
+    hireDate VARCHAR2(255 BYTE);
+    jobTitle employees.job_title%TYPE;
+BEGIN
+    SELECT first_Name, last_Name, email, phone, TO_CHAR(hire_date, 'DD-MON-YY'), job_title 
+    INTO firstName, lastName, email, phone, hireDate, jobTitle
+    FROM employees WHERE employee_id = p_empid;
+    DBMS_OUTPUT.PUT_LINE('First Name: '||firstname);
+    DBMS_OUTPUT.PUT_LINE('Last Name: ' || lastName);
+    DBMS_OUTPUT.PUT_LINE('Email: '||email);
+    DBMS_OUTPUT.PUT_LINE('Phone: '||phone);
+    DBMS_OUTPUT.PUT_LINE('Hire date: '||hireDate);
+    DBMS_OUTPUT.PUT_LINE('Job Title: '||jobTitle);
+    EXCEPTION
+        WHEN NO_DATA_FOUND THEN 
+            DBMS_OUTPUT.PUT_LINE ('No Product has this Id');
+        WHEN OTHERS THEN
+            DBMS_OUTPUT.PUT_LINE('SOME ERROR HAPPENED');    
+END FIND_EMPLOYEE;
+
+--3 
+CREATE OR REPLACE PROCEDURE UPDATE_PRICE_BY_CAT (p_catid IN NUMBER, p_amount IN NUMBER)
+IS
+    Rows_updated NUMBER;
+BEGIN
+    UPDATE PRODUCTS
+    SET list_price = list_price + p_amount
+    WHERE category_id=p_catid AND list_price > 0;
+    
+    Rows_updated := sql%rowcount;
+    DBMS_OUTPUT.PUT_LINE (rows_updated ||' rows updated');
+    ROLLBACK;
+END UPDATE_PRICE_BY_CAT;

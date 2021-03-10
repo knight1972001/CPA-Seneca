@@ -1,0 +1,22 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NEE
+// Day:				Feb 11th 2020
+// Workshop:       	4
+//==============================================
+Through this workshop, I learned how to use Move/Copy Constructor and Move/Copy Assign. Also many things like enum, Error Handling, pointer to pointer, etc. I just surprise because I try to use "enum" to define "morning, afternoon, evening" to easy in "switch-case". However, it cannot be null, so I have some problem in the output of matrix(however, It work fine on my computer). So after all, I have to delete them all and use if-else to submit the workshop.
+
+- the difference between the implementations of composition and an aggregation: 
++ Composition is presented for a "part-of" relationship. In Composition, two entities are dependent on each other. It means the entity cannot exist without another entity.
++ Aggregation is presented for a "has-a" relationship. The big difference between composition and aggregation is Aggregation can exist without another entity. It means if an entity eliminated, it is not affecting another entity.
+
+- the difference between the implementations of move and copy functions in composition and aggregation.
++ In the aggregation relationship, if we delete an object that was copied, we still can access it in the object copied.
++ In a composition relationship, if we delete an object that was moved, we cannot access it anymore because it cannot exist independent of the parent class
+
+Identify places in your code where you have used **association**, **aggregation** and **composition** relations.
+Aggregation: "ConfirmationSender" and "Restaurant" because 2 entities can exist without another entity.
+Association: "ConfirmationSender" - "Reservation" And "Restaurant" - "Reservation" are presented for Association relations. 
+Composition: "Reservation" to res_id, name, email are presented for Composition relations
