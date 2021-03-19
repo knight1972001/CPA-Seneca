@@ -116,7 +116,7 @@ namespace sdds {
             out << theSong << endl;
             });
         out << "----------------------------------------------------------------------------------------" << endl;
-        out << "| " << right << "Total Listening Time: " + totalTime << " |" << endl;
+        out << "| " << setw(77) << right << "Total Listening Time: " << totalTime << " |" << endl;
         out << "----------------------------------------------------------------------------------------" << endl;
     }
 
@@ -150,11 +150,10 @@ namespace sdds {
     }
 
     std::list<Song> SongCollection::getSongsForArtist(const std::string artistName) const {
-        std::list<Song> filteredSong;
-        auto filter = std::copy_if(collections.begin(), collections.end(), filteredSong.begin(), [artistName](const Song& song) {
+        std::list<Song> filteredSong(collections.size());
+        filteredSong.resize(std::distance(filteredSong.begin(), std::copy_if(collections.begin(), collections.end(), filteredSong.begin(), [artistName](const Song& song) {
             return (song.artist == artistName);
-            });
-        filteredSong.resize(std::distance(filteredSong.begin(), filter));
+            })));
         return filteredSong;
     }
 }

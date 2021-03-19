@@ -28,7 +28,8 @@ namespace sdds {
 		void cleanAlbum();
 		bool inCollection(const std::string artistName) const;
 		std::list<Song> getSongsForArtist(const std::string artistName) const;
-		friend std::ostream& operator<<(std::ostream& out, const Song& theSong);
 	};
+	std::ostream& operator<<(std::ostream& out, const Song& theSong);
+
 }
 #endif // !SONGCOLLECTION_H
