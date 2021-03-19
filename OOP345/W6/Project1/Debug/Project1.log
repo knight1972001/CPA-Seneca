@@ -1,6 +1,5 @@
 ﻿  Autoshop.cpp
-  Car.cpp
-  Racecar.cpp
   Utilities.cpp
+  w6_p1.cpp
   Generating Code...
   Project1.vcxproj -> C:\CPA_Code\OOP345\W6\Project1\Debug\Project1.exe

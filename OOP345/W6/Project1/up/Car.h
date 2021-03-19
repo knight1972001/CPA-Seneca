@@ -1,3 +1,11 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NEE
+// Day:				March 11th 2020
+// Workshop:       	6
+//==============================================
 #ifndef CAR_H
 #define CAR_H
 #include <iostream>

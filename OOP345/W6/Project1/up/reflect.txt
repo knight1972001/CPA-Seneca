@@ -1,0 +1,13 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NEE
+// Day:				March 11th 2020
+// Workshop:       	6
+//==============================================
+- We need to deallocate the dynamically allocated memory in vector because the type of Vector is a pointer of Vehicle. We delete dynamically allocated memory to frees any excess memory but leaves the vector intact(empty).
+- To detect function `loadData()` went wrong. The data will have a specific form: 
+tag,name,condition,speed,booster_rate.
+Each column will have its type. First of all, we go through all columns and make sure there is no extra column. Then we can go to each column to trim the white space and import the data. If there is an unknown type of vehicle or invalid data, we throw it and try, the catch will do the rest. Move on to the next object.
+- I think we cannot use `std::list<sdds::Vehicle>` and `std::vector<sdds::Vehicle>` instead because Vehicle is the pure virtual class. After validating the data, we will push_back the Racecar, Car, or nullptr in the vector. So we have to use Vehicle*.
