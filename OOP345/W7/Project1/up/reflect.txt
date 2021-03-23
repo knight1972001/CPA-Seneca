@@ -1,0 +1,32 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NEE
+// Day:				March 19th 2020
+// Workshop:       	7
+//==============================================
+
++ First, In trimSpace function, I use any_of() to check the string contain any character != ' '. If there are 0 characters in the string, this string will be set to a safe empty state. Of course, I can use find_if or count_if, but I prefer any_of because it will return "bool" type that decides to remove space or set the value to a safe empty state.
++ in Display(), I use for_each to display each Song in the collection. I think this is the best suitable algorithm for this case.
++ in sort(), I use sort() to sort the collection by the field. Of course, I can do it with for_each. But the sort() was created to make the code of sorting algorithms shortest.
++ in cleanAlbum function, I use transform() to modify the data in collections and store the result to them.
++ in getSongsForArtist function, I use copy_if to copy the element that qualifies of if condition.
+
+
+- using STL algorithms save a lot of time than using loops. It helps our program to run faster, but there may also be cases where the program will not work, infinitely loop.
+
+
+- To avoid user input invalid fields, we can make a container that contains the name of all fields. So we can use the loop or STL algorithm to check user input before going to the sort function.
+
+string input;
+		cout << "Field: ";
+		cin >> input;
+		if (any_of(arr.begin(), arr.end(), [input](string element) {
+			return element == input;
+			})) {
+			check = true;
+		}
+		else {
+			cout << "Invalid field. Enter again!" << endl;
+			}

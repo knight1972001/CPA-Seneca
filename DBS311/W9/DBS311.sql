@@ -1,3 +1,4 @@
+  
 DECLARE
     p_description products.description%TYPE;
     status VARCHAR(45);
@@ -14,4 +15,3 @@ BEGIN
         WHEN OTHERS THEN
             DBMS_OUTPUT.PUT_LINE('SOME ERROR HAPPENED');  
 END;
-

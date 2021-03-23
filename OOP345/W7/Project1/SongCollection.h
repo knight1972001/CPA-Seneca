@@ -1,3 +1,11 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NEE
+// Day:				March 19th 2020
+// Workshop:       	7
+//==============================================
 #ifndef SONGCOLLECTION_H
 #define SONGCOLLECTION_H
 #include <iostream>
@@ -20,9 +28,9 @@ namespace sdds {
 		int listenTime;
 		std::string totalTime;
 	public:
+		SongCollection(const std::string filename);
 		void trimSpace(std::string& value);
 		std::string timeFormat(const int seconds);
-		SongCollection(const std::string filename);
 		void display(std::ostream& out) const;
 		void sort(const std::string field);
 		void cleanAlbum();

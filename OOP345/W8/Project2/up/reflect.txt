@@ -1,0 +1,27 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NEE
+// Day:			March 22th 2020
+// Workshop:       	8
+//==============================================
++ the advantage of the smart pointer in my code is avoid the memory leak.
+In mergeRaw() function, 
+for (size_t i = 0; i < desc.size(); i++) {
+			for (size_t j = 0; j < price.size(); j++) {
+				if (desc[i].code == price[j].code) {
+					Product* p = new Product(desc[i].desc, price[j].price);
+					p->validate();
+					priceList += p;
+					delete p;
+				}
+			}
+		}
+		return priceList;
+
+This function will go through validate() function that can be "throw". If it goes through "throw", the pointer will be not deallocated. It will lead to a memory leak.
+
+In the mergeSmart() function, I used Smart Pointer, so I no need to deallocate the pointer anymore. This thing can avoid the memory leak as the Raw pointer.
+
++ There is not hugely difference between a raw pointer and a smart pointer. In mergeRaw(), I have to deallocate after using the pointer to avoid a memory leak. Meanwhile, mergeSmart() no need to deallocate manual even it goes through validate() and will be "throw". A memory leak is very annoying when I trying to submit a workshop through the matrix. So I think a smart pointer will be very helpful for me in the future.
