@@ -1,0 +1,8 @@
+// Name:				Long Nguyen
+// Seneca Student ID:	155176183
+// Seneca email:		lnguyen97@myseneca.ca
+// Date of completion:	Apr 8th, 2021
+//
+// I confirm that I am the only author of this file
+//   and the content was created entirely by me.
+Through this final project, I learned many things (actually, I have the chance to practice all materials learned this semester). The important thing, I can imagine how to do a project in real. It took time and need to finish a small milestone before finished the whole project. This assembly line project can use in some retail stores to manage customer orders. It's really helpful for staff and knows customer order which incomplete(because no stock left) to fill as soon as possible. However, this project does not require showing the "incomplete order". Might be in the future if I do a similar project, I will show it to have an easier visual about the customer orders. The most thing I love in this project is Utility.extractToken. This Utility is very helpful to extract words from a file record (before while doing workshops, I have a hard time when extracting words from file records. But now, no more). At last, one more thing I want to improve about this project is the picture("assemblyline.jpg"). This picture makes me confused about the plan of the program. I think in the future, we can do the small *.gif or video to clear the plan of the program. I think it will be very helpful for the programer.
