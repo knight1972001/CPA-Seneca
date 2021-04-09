@@ -1,0 +1,14 @@
+//==============================================
+// Name:           	Long Nguyen
+// Student Number: 	155176183
+// Email:          	lnguyen97@myseneca.ca
+// Section:        	NEE
+// Day:			March 31th 2020
+// Workshop:       	9
+//==============================================
+We use binary files because is a computer file that can contain any type of data and is encoded in binary format for storage on a computer. The computer only understands the machine code (machine code is also called machine language), so all data that wants to be understood by the computer must be converted to binary form.
+I use the binary files in this workshop by reading the original file(text file), then backup it by encoding it to the binary file. So if we want to open it, just call restore() to decode it from binary to the text file.
+
+the bind function will return a function object based on fn, but with its arguments bound to args. It is useful in this workshop because after we call to bind(), it will return thread type which we can use to join() after.
+
+The advantages of using multiple threads increase the efficiency of the program, it works faster on multiple CPU systems, allows a program to make the best use of the available CPU cycles and allows for very efficient programs to be written. I used multi-threading in this workshop to encode the data by creating the multi-thread, then I use the join() method, this function only returns when all threads finish, which means the main thread will wait until all child threads finish their job.

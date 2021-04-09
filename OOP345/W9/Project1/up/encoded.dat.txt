@@ -1,0 +1,20 @@
+``k"8k*k,.%.9*'f;>9;$8.k;9$,9*&&"%,k'*%,>*,.k(9.*?./k)2kA	!*9%.k?9$>8?9>;k*8k*%k.3?.%8"$%k$-k?#.kk;9$,9*&&"%,k'*%,>*,.gkA$9kik<"?#k'*88.8iek#.k'*%,>*,.k#*8k.3;*%/./k8",%"-"(*%?'2kA$=.9k?"&.gk*%/k&$/.9%k``k#*8k$)!.(?f$9".%?./gk,.%.9"(gkA*%/k->%(?"$%*'k-.*?>9.8k"%k*//"?"$%k?$k-*("'"?".8k-$9kA'$<f'.=.'k&.&$92k&*%";>'*?"$%ek?k"8k*'&$8?k*'<*28kA"&;'.&.%?./k*8k*k($&;"'./k'*%,>*,.gk*%/k&*%2k=.%/$98k;9$="/.kA``k($&;"'.98gk"%('>/"%,k?#.k9..k$-?<*9.k$>%/*?"$%gkgkA"(9$8$-?g Intel, Oracle, and IBM, so it is available on 
+many platforms.
+
+C++ was designed with a bias toward system programming and 
+embedded, resource-constrained software and large systems, 
+with performance, efficiency, and flexibility of use as its 
+design highlights. C++ has also been found useful in many 
+other contexts, with key strengths being software 
+infrastructure and resource-constrained applications, 
+including desktop applications, servers (e.g. e-commerce, 
+Web search, or SQL servers), and performance-critical 
+applications (e.g. telephone switches or space probes).
+
+C++ is standardized by the International Organization for 
+Standardization (ISO), with the latest standard version 
+ratified and published by ISO in December 2017 as 
+ISO/IEC 14882:2017 (informally known as C++17). The C++ 
+programming language was initially standardized in 1998 
+as ISO/IEC 14882:1998, which was then amended by the 
+C++03, C++11 and C++14 standards. The current C++17kA8?*%/*9/k8>;.98./.8k?#.8.k<"?#k%.<k-.*?>9.8k*%/k*%kA.%'*9,./k8?*%/*9/k'")9*92ek	.-$9.k?#.k"%"?"*'kA8?*%/*9/"1*?"$%k"%kzrrsgk``k<*8k/.=.'$;./k)2k*%"8#kA($&;>?.9k8(".%?"8?k	!*9%.k?9$>8?9>;k*?k	.''k*)8kA8"%(.kzr|rk*8k*%k.3?.%8"$%k$-k?#.kk'*%,>*,.pk#.kA<*%?./k*%k.--"(".%?k*%/k-'.3")'.k'*%,>*,.k8"&"'*9k?$kkA?#*?k*'8$k;9$="/./k#",#f'.=.'k-.*?>9.8k-$9k;9$,9*&kA$9,*%"1*?"$%ek``y{k"8k?#.k%.3?k;'*%%./k8?*%/*9/gkA ..;"%,k<"?#k?#.k(>99.%?k?9.%/k$-k*k%.<k=.98"$%k.=.92kA?#9..k2.*98eAK

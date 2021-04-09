@@ -57,10 +57,10 @@ namespace sdds {
 		if (this != &confirm) {
 			this->cnt = confirm.cnt;
 			this->cntUsed = confirm.cntUsed;
-				this->reservations = confirm.reservations;
-				confirm.reservations = nullptr;
-				confirm.cnt = 0;
-				confirm.cntUsed = 0;
+			this->reservations = confirm.reservations;
+			confirm.reservations = nullptr;
+			confirm.cnt = 0;
+			confirm.cntUsed = 0;
 		}
 		return *this;
 	}
