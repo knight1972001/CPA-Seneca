@@ -1,0 +1,1 @@
+db.students.find({"_id" : {"$in":[20,22,24]}},{"_id":1,"term":1})

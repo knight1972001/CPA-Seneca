@@ -1,1 +1,0 @@
- db.products.find({"type":{"$in":["accessory","service"]}},{"_id":0,"name":1,"price":1,"type":1})
